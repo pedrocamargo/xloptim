@@ -38,8 +38,6 @@ There are plenty resources on this topic online (I linked only one of them here)
 
 ![hyperv](/img/Docker_Hyper_V.png)
 
-![](http://3.105.80.235/wp-content/uploads/sites/3/2018/10/Docker_Hyper_V.png)
-
 2. Configuring Docker (in order to have enough CPU and memory to run more intensive BIOGEME jobs)
 
 ![Docker advanced](/img/docker_advanced-768x530.png)
