@@ -1,14 +1,14 @@
 ---
 id: 344
 title: "Allowing AequilibraE's users maximum convenience without driving myself crazy"
-date: '2017-12-16T01:42:53+10:00'
+date: "2017-12-16T01:42:53+10:00"
 author: pedro
-layout: post
+url: /tradeoff_convenience/
 categories:
-    - AequilibraE
-    - GIS
-    - Python
-    - 'Transportation planning'
+  - AequilibraE
+  - GIS
+  - Python
+  - "Transportation planning"
 ---
 
 Like most minimally experienced transportation modellers and planners, I have used multiple modelling software in professional and academic life, but I could not properly appreciate the differences between some of the different software implementations until I became myself a “developer” with AequilibraE.

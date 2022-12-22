@@ -1,12 +1,12 @@
 ---
 id: 282
-title: 'AequilibraE Linux support and desire lines'
-date: '2016-09-11T05:13:08+10:00'
+title: "AequilibraE Linux support and desire lines"
+date: "2016-09-11T05:13:08+10:00"
 author: pedro
-layout: post
+url: /desire_lines_and-linux_support_come_to_aequilibrae/
 categories:
-    - AequilibraE
-    - GIS
+  - AequilibraE
+  - GIS
 ---
 
 The last few weeks have been quite busy for me, with a quick trip to the US, a short and sweet conference in New Zealand and the costumary TRB paper reviewing and committee business coordination. However, I got to finish two new features of AequilibraE.
@@ -25,6 +25,6 @@ Since I had to go through this process of software installation, I will put here
 1. Installing QGIS 2.16: [Instructions](https://www.youtube.com/watch?v=M0fWYrk2NRE)
 2. Installing Scipy (if you don’t have it):
 
-    `sudo apt-get install python-numpy python-scipy`
+   `sudo apt-get install python-numpy python-scipy`
 
 I also hope to announce some new contributors to AequilibraE soon, and if you think you can help (From making the website to using the software, preparing examples and writing code), just let me know.

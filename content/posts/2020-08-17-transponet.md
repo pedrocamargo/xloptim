@@ -1,13 +1,13 @@
 ---
 id: 795
-title: 'Editing Transportation networks in GIS'
-date: '2020-08-17T18:31:26+10:00'
+title: "Editing Transportation networks in GIS"
+date: "2020-08-17T18:31:26+10:00"
 author: pedro
-layout: post
+url: /transponet/
 categories:
-    - AequilibraE
-    - GIS
-    - Software
+  - AequilibraE
+  - GIS
+  - Software
 ---
 
 I have now mentioned in two blog posts that I have missed an important blog post on the amazing work that my friend [Andrew O’Brien](https://www.linkedin.com/in/andrew-o-brien-5a8bb486/) and I did about 3 years ago (even though I have bragged about it to everybody I know in this industry). So since this was a truly collaborative effort, I invited him to co-author this blog post with me (although some description of how the idea really came about is largely a recollection of my thoughts from before I met Andrew).
@@ -18,9 +18,9 @@ And before we begin the actual post, let me just say it in plain English. I firm
 
 Editing transportation networks has been a major challenge in our industry since its inception, with network coding errors and other inconsistencies being all too easy to create. I remember my first professional mentor in the field, [Wagner Martins](https://www.linkedin.com/in/wagner-colombini-martins-703279/), telling me stories about “tunnels” in networks that would arise from errors in the manual coding in networks when models were still run in mainframes, network links were just a sequence of two nodes manually typed and GIS was just a pipe dream.
 
-More recently, however, the transportation networks in our models have become increasingly complicated, with not only large numbers of links and nodes but also turn penalties and restrictions, transit routes and stops, and other less-used elements. Furthermore, these elements are not merely a collection of lines, points, and polygons, but rather a **coordinated set** of elements according to a ***network model.***
+More recently, however, the transportation networks in our models have become increasingly complicated, with not only large numbers of links and nodes but also turn penalties and restrictions, transit routes and stops, and other less-used elements. Furthermore, these elements are not merely a collection of lines, points, and polygons, but rather a **coordinated set** of elements according to a **_network model._**
 
-The increase in complexity is partly due to the fact that now we *can* do it. Computers are fast enough and modeling tools have become competent enough to allow us to come up with some rather complicated network models, however, this increase in network complexity invites even more complex errors if we try to manage them manually.
+The increase in complexity is partly due to the fact that now we _can_ do it. Computers are fast enough and modeling tools have become competent enough to allow us to come up with some rather complicated network models, however, this increase in network complexity invites even more complex errors if we try to manage them manually.
 
 If you are a transportation modeler, you are already used to the network model used in your favorite modeling package, and if you use more than one package, you are probably aware that they all take slightly different approaches when it comes to specific actions such as splitting links or deleting nodes. For example, when you reposition an intersection, your modeling package may add some links while removing others or may only change the geometry of the link in the database. But why should we be forced to use a proprietary (and expensive) transportation modeling package? And what if we want to manage our data outside of this proprietary ecosystem? We were clearly lacking a capable open-source solution.
 
@@ -46,7 +46,7 @@ With these ideas and access to adequate technology, it was possible to extend th
 
 In this implementation, there are basically two types of triggers we need to implement: Pure-data and geometry-related ones.
 
-A good example of a pure-data trigger is enforcing that a node cannot be removed if it is connected to one node. In other nodes, a node cannot be deleted if it is the a\_node or b\_node of any given link.
+A good example of a pure-data trigger is enforcing that a node cannot be removed if it is connected to one node. In other nodes, a node cannot be deleted if it is the a_node or b_node of any given link.
 
 <div class="wp-block-syntaxhighlighter-code ">```
 <pre class="brush: sql; title: ; notranslate" title="">

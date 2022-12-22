@@ -1,13 +1,13 @@
 ---
 id: 195
-title: 'Introducing AequilibraE for QGIS'
-date: '2014-12-16T04:50:04+10:00'
+title: "Introducing AequilibraE for QGIS"
+date: "2014-12-16T04:50:04+10:00"
 author: pedro
-layout: post
+url: /introducing_aequilibrae/
 categories:
-    - AequilibraE
-    - GIS
-    - Python
+  - AequilibraE
+  - GIS
+  - Python
 ---
 
 Back in January 2003 when I started my career in transportation planning as an intern at [Logit](http://www.logiteng.com/ "Logit"), my main tools as far as software went were MS Excel and TransCad (sometimes Maptitude). I would do all the modeling in Excel/VBA and use Transcad for assignment and visualization, and would always rely heavily on the visualization as one of the ultimate sanity checks to be done before sending the results to the clients.

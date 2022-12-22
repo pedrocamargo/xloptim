@@ -1,13 +1,13 @@
 ---
 id: 361
-title: 'Matrix API and multi-class assignment'
-date: '2018-02-12T13:29:59+10:00'
+title: "Matrix API and multi-class assignment"
+date: "2018-02-12T13:29:59+10:00"
 author: pedro
-layout: post
+url: /matrix-api-and-multi-class-assignment/
 categories:
-    - AequilibraE
-    - GIS
-    - Python
+  - AequilibraE
+  - GIS
+  - Python
 ---
 
 Taking the new version of AequilibraE for a ride, my first application used a data source that is very familiar to me, the Freight Analysis Framework. It is a rich data source, yet fairly small due to its large zones, thus making for pretty quick tests (even on my 9yo laptop).
@@ -20,8 +20,7 @@ Importing all these matrices and saving to a network drive (over standard gigabi
 
 Here comes the first nice new feature (from a non-programmer user perspective) , the visualizer:
 
-
-![faf_matrix_import](/blog/img/faf_matrix_import.png)
+![faf_matrix_import](/img/faf_matrix_import.png)
 
 Loading the matrix takes a split second (too fast to measure), and allows the user to browse through the matrices in a very responsive way (again, even on my super old laptop). Tests with really large matrices (~10,000 zones) also showed no difference in performance when it came to visualizing inside QGIS. You can see that the matrix is full of zeros, as I chose to fill empty cells with zeros, but you can choose to fill them with empty (NumPy NaN) if you wish, which would result in blank cells in the visualizer and do not impact any algorithm involving matrices.
 
@@ -31,17 +30,16 @@ First of all, having the matrices saved in AequilibraE format eliminates the mos
 
 Upon choosing a matrix, the user does not see the list of matrices available, as the “use all matrices” option is checked, but they can choose to specify which matrices to use. For this test, I obviously used all matrices I had available.
 
-![delaunay_line_multi_creation](/blog/img/delaunay_line_multi_creation.png)
+![delaunay_line_multi_creation](/img/delaunay_line_multi_creation.png)
 
 After running the algorithm, it was time to map the flows. For this task, It is worth noting the “expert mode” in the stacked bandwidth GUI, which sets all the scales as functions of three parameters saved as project variables in QGIS. To change these scales, the user can go to Project-Properties-Variables, and change these three parameters to fine-tune their map.
 
-![stacked_bandwidth](/blog/img/stacked_bandwidth.png)
+![stacked_bandwidth](/img/stacked_bandwidth.png)
 
-![expert_mode](/blog/img/expert_mode.png)
-
+![expert_mode](/img/expert_mode.png)
 
 The result is quite pretty, even considering random colors and **zero** time formatting the map. It is also pretty clear that I need to add the capability of creating a legend for each stacked bandwidth, as there is no way to label each one of the symbols (or flows) for each line. Alternatively, I can replace the inner workings of the stacked bandwidths to generate rule-based symbols, which allow for proper labeling and tie well with the rest of the QGIS features. That will probably be the route I will take, but I need to rest a little before I re-factor a feature that works well already.
 
-![massive_delaunay](/blog/img/massive_delaunay.png)
+![massive_delaunay](/img/massive_delaunay.png)
 
 Happy modeling!

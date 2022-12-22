@@ -1,13 +1,13 @@
 ---
 id: 61
 title: "Cube's log file"
-date: '2013-04-09T06:22:03+10:00'
+date: "2013-04-09T06:22:03+10:00"
 author: pedro
-layout: post
+url: /cubes-log-file/
 tags:
-    - Cube
-    - Python
-    - QGIS
+  - Cube
+  - Python
+  - QGIS
 ---
 
 I already posted some stuff about [CSFFM](http://www.dot.ca.gov/hq/tsip/otfa/csffm/index.html), and I still have a couple more to post (many more after TRB papers are submitted) and this time I’ll talk a bit about the network editing procedure we went over.

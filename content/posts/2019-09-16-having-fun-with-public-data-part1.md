@@ -1,11 +1,11 @@
 ---
 id: 466
-title: 'Having fun with public data - Part 1 (obtaining the data)'
-date: '2019-09-16T21:42:49+10:00'
+title: "Having fun with public data - Part 1 (obtaining the data)"
+date: "2019-09-16T21:42:49+10:00"
 author: pedro
-layout: post
+url: /having-fun-with-public-data-part1/
 categories:
-    - Uncategorized
+  - Uncategorized
 ---
 
 This is is my first post that will, intentionally, have multiple parts (at least two, but not sure how many), and before anybody thinks I am about to deploy some sort of “cliff hanger”, let me just say that each part/post will make sense on itself.

@@ -1,13 +1,12 @@
 ---
 id: 22
-title: 'Shortest Path - Djikstra in MS Excel'
-date: '2013-03-12T21:25:50+10:00'
+title: "Shortest Path - Djikstra in MS Excel"
+date: "2013-03-12T21:25:50+10:00"
 author: pedro
-layout: post
-permalink: /shortest-path-djikstra-in-ms-excel/
+url: /shortest-path-djikstra-in-ms-excel/
 categories:
-    - Excel
-    - 'Operations Research'
+  - Excel
+  - "Operations Research"
 ---
 
 It was not hard to decide which would be the first post of this blog. More than an useful algorithm, it presents a good example of how simple OR tools can bring big improvements for a company’s process.
@@ -26,7 +25,7 @@ After I developed a useful tool, we sent it out to other areas and people starte
 
 The improvement in performance was roughly the same to what Gallo and Pallotino present in this image (S-Ord, L-2queue, S-Heap), and the final algorithm was indeed pretty fast.
 
-![Data Structures](/blog/img/dijkstra_data_structures.png)
+![Data Structures](/img/dijkstra_data_structures.png)
 
 So… This was first semester of 2006, and I thought that that solution would last a couple of years until some manager noticed that it was worth it to spend a couple thousand dollars on a real and robust solution, but I heard that the company was still using the little add-on I created 5 years later.
 

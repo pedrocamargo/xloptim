@@ -1,13 +1,13 @@
 ---
 id: 696
-title: 'Adding Python packages to QGIS 3 on Windows 10'
-date: '2019-08-26T04:22:52+10:00'
+title: "Adding Python packages to QGIS 3 on Windows 10"
+date: "2019-08-26T04:22:52+10:00"
 author: pedro
-layout: post
+url: /adding-python-packages-to-qgis-3-on-windows-10/
 categories:
-    - GIS
-    - Python
-    - Software
+  - GIS
+  - Python
+  - Software
 ---
 
 Since I started developing [AequilibraE](http://www.aequilibrae.com), one of the greatest constraints I was subject to (if not the single greatest) was the limited number of installed python libraries distributed with QGIS for Windows, which really limited the features I could add to the package and how I had to write certain features, resulting in (often) convoluted code or just plain silly implementations of basic operations used in transportation modelling data processing
@@ -27,8 +27,8 @@ This process might fail if the package requires compilation or has some complex 
 For those that want something slightly easier to follow, I made a little video tutorial.
 
 ```
-import subprocess as sb 
-sb.Popen("python3 -m pip install pandas") 
+import subprocess as sb
+sb.Popen("python3 -m pip install pandas")
 sb.Popen("python3 -m pip install openmatrix")
 ```
 

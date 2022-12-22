@@ -1,13 +1,13 @@
 ---
 id: 1017
-title: 'AequilibraE embraces Pandas'
-date: '2021-01-22T15:16:23+10:00'
+title: "AequilibraE embraces Pandas"
+date: "2021-01-22T15:16:23+10:00"
 author: pedro
-layout: post
+url: /aequilibrae-embraces-pandas/
 categories:
-    - AequilibraE
-    - Python
-    - Software
+  - AequilibraE
+  - Python
+  - Software
 ---
 
 If one takes a look at the AequilibraE code, they will find an unusual amount of NumPy gymnastics that would definitely point to a world with no Pandas.
@@ -24,7 +24,7 @@ I believe that Windows will eventually have a systemwide Python installation or 
 
 ## What does it mean for AequilibraE’s legacy code?
 
-Very little for now. All that gymnastics wasn’t for nothing, so there is little reason to change things that are working and highly performant just to *save* a few lines of code. After all, re-factoring software is not only time consuming, but it also brings along a substantial risk of adding new bugs to old code.
+Very little for now. All that gymnastics wasn’t for nothing, so there is little reason to change things that are working and highly performant just to _save_ a few lines of code. After all, re-factoring software is not only time consuming, but it also brings along a substantial risk of adding new bugs to old code.
 
 That said, the **Graph** class is being re-factored as of January/2021, but I am not sure much more will come after that in the coming months.
 

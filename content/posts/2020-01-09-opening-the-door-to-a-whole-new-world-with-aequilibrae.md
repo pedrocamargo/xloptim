@@ -1,19 +1,19 @@
 ---
 id: 773
-title: 'Opening the door to a whole new world with AequilibraE'
-date: '2020-01-09T06:01:35+10:00'
+title: "Opening the door to a whole new world with AequilibraE"
+date: "2020-01-09T06:01:35+10:00"
 author: pedro
-layout: post
+url: /opening-the-door-to-a-whole-new-world-with-aequilibrae/
 categories:
-    - AequilibraE
-    - Algorithms
-    - Python
-    - Software
+  - AequilibraE
+  - Algorithms
+  - Python
+  - Software
 ---
 
 It was around the time I separated the [Python package from the QGIS plugin](http://3.105.80.235/separating-the-women-from-the-girls/) and started making AequilibraE a more serious software effort with unit tests, continuous integration, and documentation that I decided that I would eventually have to develop a more consistent API for AequilibraE.
 
-That evolution, allied [TranspoNET](https://github.com/AequilibraE/TranspoNet) (*<span style="color: #ff0000;">**HOW THE HELL HAVE I FAILED TO BLOG ABOUT SUCH A MAJOR FEAT ACHIEVED BY MY GOOD FRIEND ANDREW O’BRIEN?!?**</span>*) made it a pretty obvious decision to develop AequilibraE towards being a complete modeling platform. One with a proper data model, data consistency tools, documentation and support that would allow researchers and agencies alike to opt for an open modeling platform.
+That evolution, allied [TranspoNET](https://github.com/AequilibraE/TranspoNet) (_<span style="color: #ff0000;">**HOW THE HELL HAVE I FAILED TO BLOG ABOUT SUCH A MAJOR FEAT ACHIEVED BY MY GOOD FRIEND ANDREW O’BRIEN?!?**</span>_) made it a pretty obvious decision to develop AequilibraE towards being a complete modeling platform. One with a proper data model, data consistency tools, documentation and support that would allow researchers and agencies alike to opt for an open modeling platform.
 
 However, regardless of such a conspicuous task ahead of me, all my previous attempts failed after no more than a dozen hours of work each time I started it (they were three if I recall correctly). Looking back, it is difficult to identify the exact issues with each such attempt, but, at a minimum, I was just not a good enough modeler or software developer.
 
@@ -43,15 +43,13 @@ After much testing, I should say that the computational performance of the algor
 
 This processing time seems a little excessive for a network with only 13.7K links and 10k nodes, so I might profile the code in the future and try to understand what is going on (I might also try it on Linux and see if it is at all platform dependent). Downloading bigger networks revealed similar behavior, as one can see in the example below:
 
-
-| City	                | Number of Links        | Number of nodes  | Downloading time (s)   | Total time (s)         |
-|-----------------------|------------------------|------------------|------------------------|------------------------|
-|Darwin, Australia      | 13,700                 | 10,200           | 15                     | 180                    |
-|Karlsruhe, Germany     | 74,500                 | 56,200           | 30                     | 1,020                  |
-|Lisbon, Portugal       | 132,700                | 98,700           | 51                     | 1,670                  |
-|Madrid, Spain          | 265,200                | 185,000          | 98                     | 3,580                  |
-|Nepalk (whole country) | 10,998,000             | 8,427,400        | ~5,000                 | 106,200                |
-
+| City                   | Number of Links | Number of nodes | Downloading time (s) | Total time (s) |
+| ---------------------- | --------------- | --------------- | -------------------- | -------------- |
+| Darwin, Australia      | 13,700          | 10,200          | 15                   | 180            |
+| Karlsruhe, Germany     | 74,500          | 56,200          | 30                   | 1,020          |
+| Lisbon, Portugal       | 132,700         | 98,700          | 51                   | 1,670          |
+| Madrid, Spain          | 265,200         | 185,000         | 98                   | 3,580          |
+| Nepalk (whole country) | 10,998,000      | 8,427,400       | ~5,000               | 106,200        |
 
 One should note that most of the time taken to download the Nepal network was actually due to built-in delays so that we don’t overwhelm the OSM servers. In any case, downloading an entire country’s network (or 11MM links worth) is not only not practical during download (all those seconds amount to nearly 30h), but it is also incredibly time-consuming to perform any computation with a network of that size, so so I can’t imagine that anyone would attempt to do any many complex operations with such a network.
 

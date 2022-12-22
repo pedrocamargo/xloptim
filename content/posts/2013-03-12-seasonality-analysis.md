@@ -3,7 +3,6 @@ id: 32
 title: "Seasonality analysis"
 date: "2013-03-12T23:52:22+10:00"
 author: pedro
-layout: post
 url: /seasonality-analysis/
 categories:
   - GIS
@@ -34,10 +33,10 @@ The other data source used (combines surveys and census) was [QuickStats](http:/
 
 As the tables are hard to analyze, I’ll show a few maps for the 4 seasons.. It is quite clear the distinction, and proves the hypothesis that using a fixed factor would be inadequate to this case.
 
-![Production_Winter](/blog/img/Production_Winter-300x212.jpeg)
-![Production_Summer](/blog/img/Production_Summer-300x212.jpeg)
-![Production_Fall](/blog/img/Production_Fall-300x212.jpeg)
-![Production_Winter](/blog/img/Production_Winter-300x212.jpeg)
+![Production_Winter](/img/Production_Winter-300x212.jpeg)
+![Production_Summer](/img/Production_Summer-300x212.jpeg)
+![Production_Fall](/img/Production_Fall-300x212.jpeg)
+![Production_Winter](/img/Production_Winter-300x212.jpeg)
 
 Another interesting result I was able to produce was a video made with a sequence of 365 maps, showing how each County’s production evolves during the year.
 
@@ -45,9 +44,9 @@ Another interesting result I was able to produce was a video made with a sequenc
 
 As the maps have hundreds of categories (to make the transition smooth from one frame to the next), I’m only reproducing a simplified legend here:
 
-#![Legend](/blog/img/Legend-158x300.jpeg)
+#![Legend](/img/Legend-158x300.jpeg)
 
-<img src="/blog/img/Legend-158x300.jpeg" alt="Legend" style="width:158px;"/>
+<img src="/img/Legend-158x300.jpeg" alt="Legend" style="width:158px;"/>
 
 All the maps were developed using a python script to be run inside QGIS. The script and the shapefiles are also available for [download](http://xl-optim.com/site/seasonality/map_production.zip).
 

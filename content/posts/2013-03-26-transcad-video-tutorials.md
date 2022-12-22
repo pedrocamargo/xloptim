@@ -1,14 +1,14 @@
 ---
 id: 54
-title: 'Transcad video tutorials'
-date: '2013-03-26T05:07:27+10:00'
+title: "Transcad video tutorials"
+date: "2013-03-26T05:07:27+10:00"
 author: pedro
-layout: post
+url: /transcad-video-tutorials/
 tags:
-    - Teaching
-    - TransCad
-    - Tutorials
-    - TransCAD
+  - Teaching
+  - TransCad
+  - Tutorials
+  - TransCAD
 ---
 
 As I already mentioned, I’m currently pursuing my Ph.D. at UC Irvine. Among the many activities I have there, I am the teaching assistant (TA) for CEE123, which is an undergraduate senior class created to teach the 4-step modeling process to senior undergraduate and graduate students.
@@ -31,8 +31,7 @@ Why do these videos have so many views? I have a few hypotheses:
 
 Seeing how well the videos were received, I believe that the software houses could invest some time in creating their own video tutorials or giving incentives for users to do so. Especially software like [Citilabs Cube](http://www.citilabs.com/), which has a much more difficult learning curve, would give a much better impression to their new users.
 
-The videos can be found in the format of a playlist on Youtube, but you can also download most of the video files from ***[HERE](http://xl-optim.com/site/transcad_video_tutorials/TransCad_Videos.zip "Seasonality analysis") (675Mb).*** Please note that even though I will post more videos on Youtube, I will not update this file for download, so the safest place to find the most up-to-date videos will always be my [channel](https://www.youtube.com/user/veigacamargo) on Youtube.
-
+The videos can be found in the format of a playlist on Youtube, but you can also download most of the video files from **_[HERE](http://xl-optim.com/site/transcad_video_tutorials/TransCad_Videos.zip "Seasonality analysis") (675Mb)._** Please note that even though I will post more videos on Youtube, I will not update this file for download, so the safest place to find the most up-to-date videos will always be my [channel](https://www.youtube.com/user/veigacamargo) on Youtube.
 
 {{< youtube id="PLdiSu_6yrzc5mTh-CFYBpckMB8aOOdhHh" >}}
 

@@ -1,16 +1,16 @@
 ---
 id: 742
-title: 'Transportation modeling & intellectual honesty'
-date: '2019-11-13T09:55:37+10:00'
+title: "Transportation modeling & intellectual honesty"
+date: "2019-11-13T09:55:37+10:00"
 author: pedro
-layout: post
-guid: 'http://3.105.80.235/?p=742'
+url: /intellectual-honesty/
+guid: "http://3.105.80.235/?p=742"
 permalink: /intellectual-honesty/
 spbc_frontend__last_checked:
-    - '1623403633'
+  - "1623403633"
 categories:
-    - Rant
-    - 'Transportation planning'
+  - Rant
+  - "Transportation planning"
 ---
 
 I have been meaning to write a blog post addressing intellectual honesty in the transportation modeling practice for a while, but I never had a compelling reason to do so before today.
@@ -35,7 +35,7 @@ I know it is impossible to consider all aspects of all our actions, but when cal
 
 And this point brings me to something that happened during a conference, and that is worth telling.
 
-While attending a conference, I heard a consultant from a large consultancy company saying that “*we* (transportation modeling consultants) *are paid to justify clients’ projects*” (I might be slightly misquoting them, but the comment had this exact meaning).
+While attending a conference, I heard a consultant from a large consultancy company saying that “_we_ (transportation modeling consultants) _are paid to justify clients’ projects_” (I might be slightly misquoting them, but the comment had this exact meaning).
 
 Back then I objected to it by stating the obvious, that we are paid to give clients our honest professional opinion. I also added that after all the damage our profession has done in the Australian market in recent years, we should be real sticklers about what how we caveat our opinions and how do we disclose our conflicts of interest.
 
@@ -57,7 +57,7 @@ We should be striving to be unequivocally honest instead of whatever else we hav
 
 Finally, we should remember that perception matters.
 
-Borrowing the words of a much wiser man, “*If we are perceived as being less than intellectually honest, the short term benefits will be overcome by the long term costs in terms of revenue and reputation loss*“. So if you are not going to be honest for ethical reasons, do so for financial ones.
+Borrowing the words of a much wiser man, “_If we are perceived as being less than intellectually honest, the short term benefits will be overcome by the long term costs in terms of revenue and reputation loss_“. So if you are not going to be honest for ethical reasons, do so for financial ones.
 
 **Intentions matter**.
 

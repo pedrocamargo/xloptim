@@ -1,13 +1,13 @@
 ---
 id: 989
-title: 'AequilibraE networks for the entire world'
-date: '2020-09-23T09:23:02+10:00'
+title: "AequilibraE networks for the entire world"
+date: "2020-09-23T09:23:02+10:00"
 author: pedro
-layout: post
+url: /aequilibrae-networks-for-the-entire-world/
 categories:
-    - AequilibraE
-    - GIS
-    - Software
+  - AequilibraE
+  - GIS
+  - Software
 ---
 
 A couple of months ago, somebody from the World Bank asked me for suggestions on how to go about computing a distance matrix between a series of points spread throughout India using Open-Street-Maps or something similar.

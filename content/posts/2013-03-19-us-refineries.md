@@ -1,13 +1,13 @@
 ---
 id: 66
-title: 'US Refineries'
-date: '2013-03-19T07:02:58+10:00'
+title: "US Refineries"
+date: "2013-03-19T07:02:58+10:00"
 author: pedro
-layout: post
+url: /us-refineries/
 tags:
-    - FAF
-    - Freight
-    - Shapefile
+  - FAF
+  - Freight
+  - Shapefile
 ---
 
 I already talked about [CSFFM](http://www.dot.ca.gov/hq/tsip/otfa/csffm/index.html) when I presented the [seasonality analysis](http://www.xl-optim.com/blog/seasonality-analysis/) I made for agricultural products, but now the focus is on different parts of CSFFM.

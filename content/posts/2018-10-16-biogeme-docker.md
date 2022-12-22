@@ -1,13 +1,13 @@
 ---
 id: 414
-title: 'Biogeme on Windows using Docker'
-date: '2018-10-16T11:23:42+10:00'
+title: "Biogeme on Windows using Docker"
+date: "2018-10-16T11:23:42+10:00"
 author: pedro
-layout: post
+url: /biogeme-docker/
 categories:
-    - Python
-    - Software
-    - Uncategorized
+  - Python
+  - Software
+  - Uncategorized
 ---
 
 An important part of my day job is to develop new transportation models, and that includes a lot of discrete choice model estimation, and in the last 18 months that has included anywhere from simple departure time choice models, to more sophisticated mode choice models, where we experimented with Nested, Cross-Nested and Mixed-Logit. We have also estimated standard destination choice models based on standard MNL, but with close to 1,000 alternatives and with utility functions that are non-linear in parameters, which makes the choice sets incredibly large and the estimation very time consuming.
@@ -36,14 +36,13 @@ Docker requires you to register in order to download it, and to login in your lo
 
 There are plenty resources on this topic online (I linked only one of them here), but you need to be aware that you will get some warnings like a request to activate Hyper-V, which will **automatically** reboot your PC
 
-
-![hyperv](/blog/img/Docker_Hyper_V.png)
+![hyperv](/img/Docker_Hyper_V.png)
 
 ![](http://3.105.80.235/wp-content/uploads/sites/3/2018/10/Docker_Hyper_V.png)
 
 2. Configuring Docker (in order to have enough CPU and memory to run more intensive BIOGEME jobs)
 
-![Docker advanced](/blog/img/docker_advanced-768x530.png)
+![Docker advanced](/img/docker_advanced-768x530.png)
 
 3\. Create a Biogeme Docker image
 

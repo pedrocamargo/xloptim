@@ -1,13 +1,13 @@
 ---
 id: 959
-title: 'Spatialite and Python in 2020'
-date: '2020-06-02T07:54:51+10:00'
+title: "Spatialite and Python in 2020"
+date: "2020-06-02T07:54:51+10:00"
 author: pedro
-layout: post
+url: /spatialite-and-python-in-2020/
 categories:
-    - GIS
-    - Python
-    - Software
+  - GIS
+  - Python
+  - Software
 ---
 
 [Spatialite ](https://www.gaia-gis.it/fossil/libspatialite/index) is one of those pieces of software that make you scratch your head when you realize it is the work of a single person and without huge support from major sponsors. The portability and power provided by that piece of software are just mind-boggling and seriously underappreciated.
@@ -33,7 +33,6 @@ sudo ln -s /usr/lib/x86_64-linux-gnu/mod_spatialite.so /usr/lib/x86_64-linux-gnu
 pip3 install spatialite pysqlite3-binary
 ```
 
-
 After installing the libraries above, a few details need to be observed in your Python code in order to make full use of Spatialite
 
 ```
@@ -52,9 +51,9 @@ Setting up Spatialite on Windows is a bit more convoluted than it is on Linux, b
 
 Just like it happened in the Linux case, we need to get Spatialite installed and to replace the SQLite3 version we are using from Python, but the way of getting it done changes substantially.
 
-First of all, you should download the compiled binary filed from the project’s [home-page](http://www.gaia-gis.it/gaia-sins/) and unpack it in your system (I always use the *NEW-GENERATION* binaries). On mine, it looks like this:
+First of all, you should download the compiled binary filed from the project’s [home-page](http://www.gaia-gis.it/gaia-sins/) and unpack it in your system (I always use the _NEW-GENERATION_ binaries). On mine, it looks like this:
 
-![spatialite unpacked](/blog/img/spatialite_unpacked.png)
+![spatialite unpacked](/img/spatialite_unpacked.png)
 
 Now, there are two possibilities for loading Spatialite wiht your Python code:
 
@@ -62,7 +61,7 @@ Now, there are two possibilities for loading Spatialite wiht your Python code:
 
 ```
 import sqlite3
-import os 
+import os
 
 spatialite_path = 'c:/path/to/spatialite/folder'
 # e.g. spatialite_path  = 'C:/Users/pedro/Documents/mod_spatialite-NG-win-amd64
@@ -75,7 +74,7 @@ conn.load_extension("mod_spatialite")
 
 2. Add the path to the Spatialite folder to the system’s path and assume that the system will know Spatialite from that time forth
 
-![Env variables](/blog/img/environment_variables_blurred-1024x438.png)
+![Env variables](/img/environment_variables_blurred-1024x438.png)
 
 The Python code is, obviously, a little simpler in this case.
 
@@ -100,9 +99,7 @@ If you are trying to run automated tests on your code using [GitHub Actions](htt
 
 As far as I have been able to determine, all Python installations are located under ‘C:/hostedtoolcache/windows/Python’, and at the time of writing, the exact locations are the following.
 
-
-![Windows Runner](/blog/img/Python_install_WindowsRunner.png)
-
+![Windows Runner](/img/Python_install_WindowsRunner.png)
 
 Implementing this solution is rather easy, as I unpack Spatialite to the root drive and replace the SQLite3.dll in all Python versions available (I have never tested it with Python 2.7).
 
@@ -132,7 +129,7 @@ for d, subD, f in walk(root):
             zipfile.ZipFile(zip_path64).extractall(d)
 ```
 
-With this setup done, it is just a matter of adding the root *C:\\* drive to the environment variables in the setup phase of all tests requiring Spatialite, and you are golden.
+With this setup done, it is just a matter of adding the root _C:\\_ drive to the environment variables in the setup phase of all tests requiring Spatialite, and you are golden.
 
 The GitHub workflow that leverages this setup looks something like this:
 
@@ -176,6 +173,6 @@ In case you are running tests on Linux, there is no fidgeting needed, but you wi
 
 ## Conclusion
 
-This is embarrassingly *hacky*, but it works. And I have also not found any other alternative so far.
+This is embarrassingly _hacky_, but it works. And I have also not found any other alternative so far.
 
 Do you know of a better way? Let me know!!

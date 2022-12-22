@@ -1,14 +1,14 @@
 ---
 id: 376
-title: 'Separating the women from the girls'
-date: '2018-07-01T04:25:45+10:00'
+title: "Separating the women from the girls"
+date: "2018-07-01T04:25:45+10:00"
 author: pedro
-layout: post
+url: /separating-the-women-from-the-girls/
 categories:
-    - AequilibraE
-    - GIS
-    - Python
-    - 'Transportation planning'
+  - AequilibraE
+  - GIS
+  - Python
+  - "Transportation planning"
 ---
 
 The topic of this post is something I have been wanting to do since I published version 0.3 of AequilibraE, back on [August 2016](http://3.105.80.235/new-version-of-aequilibrae/): Separating the aequilibrae python library (the computational engine that underlines most of the AequilibraE procedures) from the GUI part of the software (which is the QGIS interface). The goal? **Being able to “pip install” AequilibraE and script models in any python (3) environment**.

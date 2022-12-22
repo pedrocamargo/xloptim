@@ -1,14 +1,14 @@
 ---
 id: 88
-title: 'Gravity distribution model in Python'
-date: '2014-07-02T07:05:56+10:00'
+title: "Gravity distribution model in Python"
+date: "2014-07-02T07:05:56+10:00"
 author: pedro
-layout: post
+url: /gravity_in_python/
 categories:
-    - Algorithms
-    - Python
-    - Transportation planning
-    - Rant
+  - Algorithms
+  - Python
+  - Transportation planning
+  - Rant
 ---
 
 WARNING: THIS CODE HAS BEEN DEPRECATED. FOR THE NEW STUFF GO TO <https://github.com/aequilibrae/aequilibrae>

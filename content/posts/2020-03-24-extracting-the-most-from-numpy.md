@@ -1,11 +1,11 @@
 ---
 id: 838
-title: 'Extracting the most from NumPy'
-date: '2020-03-24T14:30:18+10:00'
+title: "Extracting the most from NumPy"
+date: "2020-03-24T14:30:18+10:00"
 author: pedro
-layout: post
+url: /extracting-the-most-from-numpy/
 categories:
-    - Uncategorized
+  - Uncategorized
 ---
 
 NumPy is fast, and for people using it correctly, it provides all performance they will need, as their bottleneck will most likely reside somewhere else in their code.
@@ -100,7 +100,7 @@ def sum_axis1_parallel_pre_allocated(totals, multiples, cores):
     sum_axis1_cython(totals_view, multiples_view, c)
 ```
 
-The two *cpdef* functions used in the Python functions above are below.
+The two _cpdef_ functions used in the Python functions above are below.
 
 A single-threaded function
 
@@ -147,7 +147,7 @@ cpdef void sum_axis1_cython(double[:] totals,
     		totals[i] = accumulator
 ```
 
-Now note the slight differences from the simpler code below for the parallelized function. Two things to notice here are that we use an intermediary variable *accumulator* to avoid hitting the resulting array too often, as that has to go through some internal processing on OpenMP’s end. The second thing is that we do not use *accumulator += multiples\[i, j\]* as we normally do in Python, as that throws an error in the Cython compiler. There is a [good thread on StackOverflow](https://stackoverflow.com/questions/40451203/cython-parallel-loop-problems) with a relevant discussion for this topic.
+Now note the slight differences from the simpler code below for the parallelized function. Two things to notice here are that we use an intermediary variable _accumulator_ to avoid hitting the resulting array too often, as that has to go through some internal processing on OpenMP’s end. The second thing is that we do not use _accumulator += multiples\[i, j\]_ as we normally do in Python, as that throws an error in the Cython compiler. There is a [good thread on StackOverflow](https://stackoverflow.com/questions/40451203/cython-parallel-loop-problems) with a relevant discussion for this topic.
 
 ```
 @cython.wraparound(False)
@@ -200,7 +200,7 @@ def bpr_pure_python(link_flows, capacity, fftime, alpha, beta):
 def bpr_new_array(link_flows, capacity, fftime, alpha, beta, cores):
     cdef int c = cores
     congested_times = np.zeros(link_flows.shape[0], np.float64)
-    
+
     cdef double [:] congested_view = congested_times
     cdef double [:] link_flows_view = link_flows
     cdef double [:] capacity_view = capacity
@@ -222,7 +222,7 @@ def bpr(congested_times, link_flows, capacity, fftime, alpha, beta, cores):
     cdef double [:] beta_view = beta
 
     bpr_cython(congested_view, link_flows_view, capacity_view, fftime_view, alpha_view, beta_view, c)
-    
+
 
 @cython.wraparound(False)
 @cython.embedsignature(True)
@@ -257,27 +257,21 @@ I had previously run the tests on a Lenovo ThinkPad X1 Extreme with a 9750H (6 c
 
 The first relevant result was that the pure Python implementation in Cython yielded NO appreciable advantage, so I excluded those results from the results from now on.
 
-The second important result is that there is something fishy with *prange* when using a single thread. Basically, without that if-else statement in *bpr\_cython*, the function is over 25% slower than the pure Python implementation. I might be me doing something wrong with Cython (I tried playing with **schedule** and **chunksize**, to no avail), but that is something to keep in mind when writing your parallel loops.
+The second important result is that there is something fishy with _prange_ when using a single thread. Basically, without that if-else statement in _bpr_cython_, the function is over 25% slower than the pure Python implementation. I might be me doing something wrong with Cython (I tried playing with **schedule** and **chunksize**, to no avail), but that is something to keep in mind when writing your parallel loops.
 
- Tests with arrays up to 100x larger showed that all results grow proportionately, so the absolute gains from pre-allocating and re-utilizing NumPy arrays can be quite significant for large problems.
+Tests with arrays up to 100x larger showed that all results grow proportionately, so the absolute gains from pre-allocating and re-utilizing NumPy arrays can be quite significant for large problems.
 
 The third important result was that using pre-allocated arrays provided consistent savings to computational time of about 2 to 5%, depending on the number of threaded used for computation.
 
-
-![experiments numpy bpr](/blog/img/experiments-numpy-1024x683.png)
-
-
+![experiments numpy bpr](/img/experiments-numpy-1024x683.png)
 
 Finally, the most important result comes with the excellent scaling that both parallelized functions showed, with a nearly 4 fold reduction in time for using all 8 threads, instead of a single thread. It is also noteworthy that the implementation with the pre-allocated array scaled consistently netter than the regular implementation, having improved the computational time by a factor 3.9, instead of by a factor of 3.7 achieved by the regular implementation.
 
 For very large arrays, the results for single-threaded procedures also change substantially, with both the procedures implemented in Cython being roughly 25% faster than the pure Python implementation.
 
-![experiments numpy bpr](/blog/img/experiments-numpy2-1024x683.png)
-
+![experiments numpy bpr](/img/experiments-numpy2-1024x683.png)
 
 ## Conclusions
-
-
 
 Multi-threading NumPy functions, especially in the age of an ever-growing number of CPU cores, is definitely something you should do if you are looking to give a significant boost to your code AND if you have a large enough number of cores that justifies it. And since it is so incredibly easy to do it with Cython, there is potentially a very good cost-benefit for your own project.
 

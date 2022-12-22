@@ -1,13 +1,13 @@
 ---
 id: 328
-title: 'An update on AequilibraE'
-date: '2017-08-12T08:38:53+10:00'
+title: "An update on AequilibraE"
+date: "2017-08-12T08:38:53+10:00"
 author: pedro
-layout: post
+url: /update_on_aequilibrae/
 categories:
-    - AequilibraE
-    - GIS
-    - Python
+  - AequilibraE
+  - GIS
+  - Python
 ---
 
 A few of my readers have noticed my absence on this blog and the seemingly slow development of AequilibraE, so I decided to share what is going on and what the plans are for the next 6 months.

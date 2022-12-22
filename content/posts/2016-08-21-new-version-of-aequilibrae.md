@@ -1,13 +1,13 @@
 ---
 id: 269
-title: 'New version of AequilibraE'
-date: '2016-08-21T12:17:41+10:00'
+title: "New version of AequilibraE"
+date: "2016-08-21T12:17:41+10:00"
 author: pedro
-layout: post
+url: /new-version-of-aequilibrae/
 categories:
-    - AequilibraE
-    - GIS
-    - Python
+  - AequilibraE
+  - GIS
+  - Python
 ---
 
 I realize now that it has been well over a year since my last post, but I think I have a few good reasons:
@@ -25,29 +25,29 @@ The idea of using AequilibraE’s algorithms outside QGIS was so obvious that I 
 In the end, the python API now looks like a traditional Python library that you can import from any Python (2.X) environment. The code for computing a shortest path between two nodes looks something like this on Windows 10:
 
 ```
-    import sys  
+    import sys
     sys.path.append(“C:/Users/Pedro/.qgis2/python/plugins/AequilibraE/”)
 
-    # The graph  
+    # The graph
     from aequilibrae.paths import Graph
 
-    # The results for assignment and shortest path  
-    from aequilibrae.paths.results import PathResults  
+    # The results for assignment and shortest path
+    from aequilibrae.paths.results import PathResults
     from aequilibrae.paths.results import AssignmentResults
 
-    #loading the graph prepared in QGIS  
-    my_graph = Graph()  
-    Results = PathResults()  
+    #loading the graph prepared in QGIS
+    my_graph = Graph()
+    Results = PathResults()
     my_graph.load_from_disk(‘E:/output/graph.aeg’)
 
-    #Computing a path  
-    origin = 1  
-    destination = 37  
-    results.prepare(my_graph)  
+    #Computing a path
+    origin = 1
+    destination = 37
+    results.prepare(my_graph)
     ae.paths.path_computation(origin, destination, my_graph, results)
 
-    # retrieving the results  
-    nodes_traversed = results.path_nodes  
+    # retrieving the results
+    nodes_traversed = results.path_nodes
     links_traversed = results.path
 ```
 
@@ -65,6 +65,5 @@ During this development, a few features also disappeared, as I still did not mig
 After all these features are released I will start working on version 0.4, and I hope to hear from users (and potential users) which features are more pressing (and why). Contributions to the project, as usual, are very welcome:
 
 Download the new version [HERE ](http://xl-optim.com/site/aequilibrae0.3/AequilibraE.7z)or from its [repository](https://github.com/AequilibraE/AequilibraE) (now moved to Github)
-
 
 The development of this API was made possible by the support provided by the [Instituto de Pesquisa Econômica Aplicada](http://www.ipea.gov.br), in Brazil. Kudos to them!!

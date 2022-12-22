@@ -1,13 +1,13 @@
 ---
 id: 236
-title: 'Presenting AequilibraE to the open source community'
-date: '2015-04-24T05:21:43+10:00'
+title: "Presenting AequilibraE to the open source community"
+date: "2015-04-24T05:21:43+10:00"
 author: pedro
-layout: post
+url: /presenting-aequilibrae-to-the-open-source-community/
 categories:
-    - AequilibraE
-    - Algorithms
-    - GIS
+  - AequilibraE
+  - Algorithms
+  - GIS
 ---
 
 <div>About a month ago I went to San Francisco Bay Area to present AequilibraE at the FOSS4G North America convention, which is the largest Open Source GIS event in the US. It is a very interesting conference, and much different from the transportation engineering/planning conferences I usually go to.

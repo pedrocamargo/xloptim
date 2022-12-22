@@ -1,11 +1,11 @@
 ---
 id: 954
-title: 'Struggling for relevance in the age of COVID-19'
-date: '2020-05-10T22:14:23+10:00'
+title: "Struggling for relevance in the age of COVID-19"
+date: "2020-05-10T22:14:23+10:00"
 author: pedro
-layout: post
+url: /struggling-for-relevance-in-the-age-of-covid-19/
 categories:
-    - Rant
+  - Rant
 ---
 
 As I start to write this text (April 1<sup>st</sup>), it has now been a bit more than two months that the total number of reported cases of COVID-19 has passed 10,000 and about a month that the number of confirmed cases and reported deaths have started to climb at a seemingly uncontrollable speed.
@@ -34,7 +34,7 @@ Since then, however, I have seen a growing number of modelers writing opinion pi
 
 Most opinions are simply not thought through, and you end up having a professional with 30 years of experience making as much sense as an intern thrown in the deep end at the end of their first week.
 
-The problems with these opinions range from lack of understanding about how models are built and what type of data is available/required, to absolute lack of basic logic. In some cases, I have even wondered if I will ever be able to talk to these people again without rolling my eyes at the memory of what they said ( I am specifically thinking of the people who repeat phrases like “the new normal” or “life post Covid19” *ad nauseum*).
+The problems with these opinions range from lack of understanding about how models are built and what type of data is available/required, to absolute lack of basic logic. In some cases, I have even wondered if I will ever be able to talk to these people again without rolling my eyes at the memory of what they said ( I am specifically thinking of the people who repeat phrases like “the new normal” or “life post Covid19” _ad nauseum_).
 
 ## What about our fellow transportation planners and policy “experts”?
 

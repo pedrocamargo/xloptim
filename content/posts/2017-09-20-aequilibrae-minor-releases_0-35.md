@@ -1,12 +1,12 @@
 ---
 id: 334
 title: "AequilibraE's minor releases"
-date: '2017-09-20T07:41:31+10:00'
+date: "2017-09-20T07:41:31+10:00"
 author: pedro
-layout: post
+url: /aequilibrae-minor-releases_0-35/
 categories:
-    - AequilibraE
-    - GIS
+  - AequilibraE
+  - GIS
 ---
 
 Just as I wrote in my [last post](http://3.105.80.235/update_on_aequilibrae/), I continue to work on a major new release for AequilibraE, which will bring brand new matrix and tabular data formats, multi-class assignment (for traffic and Delaunay Lines). While chipping away on that task, I have been busy fixing [bugs reported on Github](https://github.com/AequilibraE/AequilibraE/issues?q=is%3Aissue+is%3Aclosed) (6 in the last 30 days).

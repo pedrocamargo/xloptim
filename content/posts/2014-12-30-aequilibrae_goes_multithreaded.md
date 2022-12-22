@@ -1,12 +1,12 @@
 ---
 id: 219
-title: 'The next step for AequilibraE: True multi-threading'
-date: '2014-12-30T04:23:01+10:00'
+title: "The next step for AequilibraE: True multi-threading"
+date: "2014-12-30T04:23:01+10:00"
 author: pedro
-layout: post
+url: /aequilibrae_goes_multithreaded/
 categories:
-    - AequilibraE
-    - Python
+  - AequilibraE
+  - Python
 ---
 
 When AequilibraE has launched a couple of weeks ago, it was already clear that using multiple CPUs would be a requirement for it in the near future.

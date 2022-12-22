@@ -1,12 +1,12 @@
 ---
 id: 426
-title: 'Holidays & AequilibraE'
-date: '2018-12-30T21:57:16+10:00'
+title: "Holidays & AequilibraE"
+date: "2018-12-30T21:57:16+10:00"
 author: pedro
-layout: post
+url: /holidays-2018-aequilibrae/
 categories:
-    - AequilibraE
-    - GIS
+  - AequilibraE
+  - GIS
 ---
 
 Let me start by saying that AequilibraE is probably my favorite project, but I have been neglecting it for a while. Just for some perspective, QGIS 3 has had three major releases (3.0, 3.2 &amp; 3.4) and I have not yet released a version of AequilibraE that is compatible with this new platform. That is not to say that I have not worked a fair bit in it in the past few months, because [Yu-Chu](https://www.linkedin.com/in/yu-chu-huang/) ; I have worked quite a bit on it, but I did not show the commitment the project deserves.
@@ -19,7 +19,7 @@ Because of all the work Yu-Chu and I had put on, I initially thought that releas
 - Traffic assignment was not generating skims: It turns out that the feature was never implemented in the computational engine
 - Simple-Tag did not have clear rules about what were operations were possible with point, line and polygon layers, nor did it work in a intuitive manner
 - Lowest common denominator was generating wrong area proportions for one of the input layers &amp; did not behave properly when dealing with layers in different projections
-- The result of a difference between assignments in the scenario comparison tool was done with a non-intuitive manner (base *minus* alternative)
+- The result of a difference between assignments in the scenario comparison tool was done with a non-intuitive manner (base _minus_ alternative)
 - The scenario comparison and stacked bandwidths tools did not generate clean styles, with the previously existing styles being left behind. The result was an often polluted map that QGIS users that are not particularly skilled in layer styling had a hard time fixing. It was not a big deal, but fixing it resulted in MUCH better maps out of the box.
 
 Long-story-short, I was expecting to release AequilibraE for QGIS 3 as a Xmas present, but it ended up taking me almost a week to produce a release that will do what its users need. This first release was tagged as experimental, since it is the first release in this new platform and I don’t have a very sophisticated testing infrastructure.

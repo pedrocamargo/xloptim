@@ -1,13 +1,13 @@
 ---
 id: 703
 title: "Get them filtered: A new plugin for QGIS"
-date: '2019-08-30T12:05:50+10:00'
+date: "2019-08-30T12:05:50+10:00"
 author: pedro
-layout: post
+url: /get-them-filtered/
 categories:
-    - GIS
-    - Python
-    - Software
+  - GIS
+  - Python
+  - Software
 ---
 
 This is another quite short post, as it treats of something that is quite trivial from a technical point of view and, in hindsight, something that I should’ve published years ago.

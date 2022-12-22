@@ -1,18 +1,18 @@
 ---
 id: 680
-title: 'New version of AequilibraE for QGIS 3.X'
-date: '2019-09-10T22:04:04+10:00'
+title: "New version of AequilibraE for QGIS 3.X"
+date: "2019-09-10T22:04:04+10:00"
 author: pedro
-layout: post
-guid: 'http://3.105.80.235/?p=680'
+url: /new-version-of-aequilibrae-for-qgis-3-x/
+guid: "http://3.105.80.235/?p=680"
 permalink: /new-version-of-aequilibrae-for-qgis-3-x/
 spbc_frontend__last_checked:
-    - '1623403621'
+  - "1623403621"
 categories:
-    - AequilibraE
-    - GIS
-    - Python
-    - Software
+  - AequilibraE
+  - GIS
+  - Python
+  - Software
 ---
 
 It has been a really long time since I released the experimental version of AequilibraE for QGIS 3.X, and since then I haven’t worked really hard on it. Part of this slow down in the development had to do with the fact that I don’t have air condition in my home office, and Brisbane’s summer is not kind on such absurdity.

@@ -3,11 +3,6 @@ id: 1073
 title: "We need to talk about the trust we put on software"
 date: "2021-12-17T11:26:08+10:00"
 author: pedro
-# menu:
-#   sidebar:
-#     name: We need to talk about the trust we put on software
-#     identifier: we-need-to-talk-about-the-trust-we-put-on-software
-#     weight: 20
 url: /we-need-to-talk-about-the-trust-we-put-on-software/
 categories:
   - rant

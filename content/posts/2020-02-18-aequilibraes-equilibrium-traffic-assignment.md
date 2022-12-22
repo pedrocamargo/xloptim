@@ -1,11 +1,11 @@
 ---
 id: 311
-title: 'AequilibraE equilibrium traffic assignment'
-date: '2020-02-18T05:00:27+10:00'
+title: "AequilibraE equilibrium traffic assignment"
+date: "2020-02-18T05:00:27+10:00"
 author: pedro
-layout: post
+url: /aequilibraes-equilibrium-traffic-assignment/
 categories:
-    - Uncategorized
+  - Uncategorized
 ---
 
 Traffic assignment is a cornerstone of any transportation modeling software, and regardless of what you are using it for (consulting or research), a capable traffic assignment tool/software/algorithm is often a required tool for a successful outcome.
@@ -27,8 +27,7 @@ To test these algorithms, we have used five instances from [Transportation Netwo
 
 We have gone through the development of a fairly comprehensive computational study of all equilibrium algorithms we have developed by comparing the best-known link-flow results to our own link flows after 500 iterations, reporting the RMSE, overall regression fit and the relative-gap we have reached. This [computational study](http://www.aequilibrae.com/python/V.0.6.1/traffic_assignment.html#numerical-study) can be found on AequilibraE’s brand-new documentation page, but the convergence analysis below would give you a little taste of it. I am certainly biased, but I think it looks awesome.
 
-
-![convergence_comparison](/blog/img/convergence_comparison.png)
+![convergence_comparison](/img/convergence_comparison.png)
 
 If on one hand, it took me years to finally develop equilibrium assignment, on the other hand, it comes when AequilibraE has proper documentation, testing, and a much more sophisticated software development infrastructure around it. One may still ask: Why now? Why ONLY now, if it only took a month to develop?
 

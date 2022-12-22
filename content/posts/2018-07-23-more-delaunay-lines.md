@@ -1,14 +1,14 @@
 ---
 id: 404
-title: 'A little more Delaunay Lines'
-date: '2018-07-23T22:10:38+10:00'
+title: "A little more Delaunay Lines"
+date: "2018-07-23T22:10:38+10:00"
 author: pedro
-layout: post
+url: /more-delaunay-lines/
 categories:
-    - AequilibraE
-    - Algorithms
-    - GIS
-    - 'Transportation planning'
+  - AequilibraE
+  - Algorithms
+  - GIS
+  - "Transportation planning"
 ---
 
 It has been nearly 4.5 years since I [published](http://www.xl-optim.com/blog/2014-02-09-delaunay) my idea on making desire lines using Delaunay Triangles on this blog, over 3.5 years I launched AequilibraE and about 2 years since I incorporated Delaunay Lines into AequilibraE (and made it actually usable).
@@ -23,5 +23,4 @@ The map, which is a phenomenal piece of art, was developed by a Brazilian archit
 
 Again, I am beyond stoked, but I will let you judge by yourselves. You can even [download the High-resolution version](http://xl-optim.com/site/more-delaunay-lines/Material_Flow.jpg), and a little text by the authors of the [pavilion](http://xl-optim.com/site/more-delaunay-lines/Material_Flow-Fluxo_Material-PtBR.pdf) here (in Portuguese).
 
-
-![My map](/blog/img/Material-Flow-1024x1024.jpg)
+![My map](/img/Material-Flow-1024x1024.jpg)

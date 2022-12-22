@@ -1,12 +1,12 @@
 ---
 id: 65
 title: "Python's Traffic assignment module (All or Nothing)"
-date: '2013-10-18T21:45:33+10:00'
+date: "2013-10-18T21:45:33+10:00"
 author: pedro
-layout: post
+url: /python-traffic-assignment/
 categories:
-    - 'Operations Research'
-    - Python
+  - "Operations Research"
+  - Python
 ---
 
 WARNING: THIS CODE HAS BEEN DEPRECATED. FOR THE NEW STUFF GO TO <https://github.com/aequilibrae/aequilibrae>

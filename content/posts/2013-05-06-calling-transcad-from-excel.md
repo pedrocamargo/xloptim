@@ -1,14 +1,14 @@
 ---
 id: 95
-title: 'Calling TransCAD from Excel'
-date: '2013-05-06T03:29:35+10:00'
+title: "Calling TransCAD from Excel"
+date: "2013-05-06T03:29:35+10:00"
 author: pedro
-layout: post
+url: /calling-transcad-from-excel/
 tags:
-    - GISDK
-    - VBA
-    - Excel
-    - TransCAD
+  - GISDK
+  - VBA
+  - Excel
+  - TransCAD
 ---
 
 One of these days my Ph.D. advisor, [Prof. Michael McNally](http://www.its.uci.edu/~mcnally/mgm-home.html) asked me if I knew how to access TransCad through another software, say MS Excel, and how difficult it would that be. I told him that it was actually quite easy and could share some examples, but I also thought that it could also make a good post.

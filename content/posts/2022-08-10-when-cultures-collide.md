@@ -3,12 +3,7 @@ id: 1074
 title: "When cultures collide"
 date: "2022-08-12T00:00:00+10:00"
 author: pedro
-menu:
-  sidebar:
-    name: When cultures collide
-    identifier: when-cultures-collide
-    weight: 10
-url: "when-cultures-collide"
+url: /when-cultures-collide/
 categories:
   - rant
 ---
