@@ -8,7 +8,7 @@ section:
   template: sections/about.html
 
 # your designation
-designation: Software Engineer
+designation: Transportation Scientist
 # your company information
 company:
   name: XL-Optim

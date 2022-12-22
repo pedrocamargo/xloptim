@@ -1,12 +1,16 @@
 ---
 id: 1073
-title: 'We need to talk about the trust we put on software'
-date: '2021-12-17T11:26:08+10:00'
+title: "We need to talk about the trust we put on software"
+date: "2021-12-17T11:26:08+10:00"
 author: pedro
-layout: post
-permalink: /we-need-to-talk-about-the-trust-we-put-on-software/
+menu:
+  sidebar:
+    name: We need to talk about the trust we put on software
+    identifier: we-need-to-talk-about-the-trust-we-put-on-software
+    weight: 20
+url: /we-need-to-talk-about-the-trust-we-put-on-software/
 categories:
-    - rant
+  - rant
 ---
 
 <span style="font-weight: 400">Before we begin, let us say that we will be speaking from a transportation modeling perspective, but there is no reason why this would not be true for other fields that rely heavily on (proprietary) software. Now back to the topic at hand.</span>
@@ -15,7 +19,7 @@ categories:
 
 <span style="font-weight: 400">There are many things in transportation modeling practice that are fundamentally heuristic and are a true mix of science and art. Take the specification of mode choice models, for example. It is perfectly reasonable to expect that the two best modelers you know would get to different model specifications (even demand segmentations) if you give them the exact same datasets to work with.</span>
 
-<span style="font-weight: 400">Traditional link-based user-equilibrium static traffic assignment, however, is not in the </span>*<span style="font-weight: 400">do-as-you-please</span>*<span style="font-weight: 400"> category. Or at least it should not be. The industry’s understanding of what static traffic assignment is and the math behind it has been established for a while, including for multi-class traffic assignment. Or so we thought.</span>
+<span style="font-weight: 400">Traditional link-based user-equilibrium static traffic assignment, however, is not in the </span>_<span style="font-weight: 400">do-as-you-please</span>_<span style="font-weight: 400"> category. Or at least it should not be. The industry’s understanding of what static traffic assignment is and the math behind it has been established for a while, including for multi-class traffic assignment. Or so we thought.</span>
 
 <span style="font-weight: 400">To allow a better perspective of what brought us to this article, let’s go back to when Jan joined VLC (where Pedro worked for a while) in 2017. Being a physicist and mathematician, Jan had virtually zero knowledge of the transportation modeling field, but was eager to learn and had the drive and tools to dive into the most complicated stuff we had laying around. At that time, Pedro was trying to get VLC to improve its traffic assignment (a standard Frank-Wolfe algorithm at that time) by implementing the Biconjugate Frank-Wolfe (BFW), so he gave Jan the “</span>[<span style="font-weight: 400">The Stiff is moving</span>](https://pubsonline.informs.org/doi/abs/10.1287/trsc.1120.0409)<span style="font-weight: 400">” paper for Jan to read and see what he thought of it.</span>
 

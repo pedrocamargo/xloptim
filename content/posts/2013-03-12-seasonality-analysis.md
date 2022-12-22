@@ -1,17 +1,17 @@
 ---
 id: 32
-title: 'Seasonality analysis'
-date: '2013-03-12T23:52:22+10:00'
+title: "Seasonality analysis"
+date: "2013-03-12T23:52:22+10:00"
 author: pedro
 layout: post
-permalink: /seasonality-analysis/
+url: /seasonality-analysis/
 categories:
-    - GIS
-    - Python
+  - GIS
+  - Python
 tags:
-    - Freight
-    - Python
-    - QGIS
+  - Freight
+  - Python
+  - QGIS
 ---
 
 Freight modeling is currently a very hot topic in the US, and California currently has its [CSFFM](http://www.dot.ca.gov/hq/tsip/otfa/csffm/index.html "CSFFM") being developed at UCI by a team to which I belong.
