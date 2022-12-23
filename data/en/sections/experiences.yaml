@@ -80,3 +80,82 @@ experiences:
         end: Sep 2021
         responsibilities:
           - Working on novel algorithms for urban freight distribution and network design
+
+  - company:
+      name: Veitch Lister Consulting
+      # url: "https://www.example.com"
+      location: Brisbane, Queensland, Australia
+      # company overview
+      # overview: Example Co. is a widely recognized company for cloud-native development. It builds tools for Kubernetes.
+    positions:
+      - designation: Principal Consultant (Model development)
+        start: Aug 2018
+        # don't provide end date if you are currently working there. It will be replaced by "Present"
+        end: Jun 2019
+        # give some points about what was your responsibilities at the company.
+        # responsibilities:
+        #   - I am part of the team developing the modeling platform Polaris and its associated metropolitan models, to date focusing mostly on the supply data model and software engineering
+
+      - designation: Senior Model developer
+        start: Feb 2016
+        end: Aug 2018
+        # responsibilities:
+        #   - Implement and test xyz feature for abc tool.
+        #   - Support client for abc tool.
+        #   - Learn k,d,w technology for xyz.
+
+  - company:
+      name: Instituto de Pesquisa Econômica Aplicada (Ipea)
+      # url: "https://www.example.com"
+      location: Brasilia, Brasil
+      # overview: About the company
+    positions:
+      - designation: Research Fellow
+        start: Mar 2014
+        end: Mar 2016
+        responsibilities:
+          - Providing technical support for the updating of the Brazilian National Freight Plan
+
+  - company:
+      name: Maricopa Association of Governments
+      url: "http://www.azmag.gov"
+      location: Phoenix, AZ
+      # overview: About the company
+    positions:
+      - designation: Transportation Modeler
+        start: Nov 2013
+        end: Dec 2015
+        responsibilities:
+          - Member of the transportation modeling group.
+          - New generation freight model development (SHRP2 C20 IAP project)
+          - Developing tools for model post processing
+          - Transit model validation and improvement
+
+  - company:
+      name: Vale
+      # url: "http://www.azmag.gov"
+      # location: Phoenix, AZ
+      # overview: About the company
+    positions:
+      - designation: Engineer
+        start: Jan 2006
+        end: Jan 2008
+        responsibilities:
+          - Logistics Strategic plan of the Company
+          - New business analysis
+          - Railway capacity studies
+
+  - company:
+      name: Logit Engenharia Consultiva
+      # url: "http://www.azmag.gov"
+      # location: Phoenix, AZ
+      # overview: About the company
+    positions:
+      - designation: Engineer
+        start: Jan 2005
+        end: Dec 2005
+        responsibilities:
+          - Transportation Planning
+          - BRT (Bus Rapid Transit)
+          - Regional planning
+          - Transport modelling
