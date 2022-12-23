@@ -7,6 +7,6 @@
   <h1 class="text-center" style="display: none"><span id="{{ $sectionID }}"></span>{{ .section.name }}</h1>
   {{ end }}
   <div class="container">
-    <div class="row" id="gallery">{{ partial "image-gallery" (dict "context" . "gallery_dir" "album") }}</div>
+    <div class="row" id="gallery">{{ partial "image-gallery" (dict "context" . "gallery_dir" "gallery") }}</div>
   </div>
 </div>
