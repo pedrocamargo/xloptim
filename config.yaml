@@ -1,4 +1,5 @@
-baseURL: https://www.xl-optim.com/
+# baseURL: https://www.xl-optim.com/
+baseURL: /
 
 languageCode: en-us
 title: "XL-Optim"
