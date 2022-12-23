@@ -13,19 +13,19 @@ section:
 skills:
   - name: Transport Model Development
     # logo: /images/sections/skills/kubernetes.png
-    # summary: "Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs."
+    summary: "Lorem ipsum dolor sit amet. Qui galisum reprehenderit hic suscipit vero et dicta blanditiis ea animi optio ut distinctio natus."
     # url: "https://kubernetes.io/"
 
   - name: Freight modelling
     # logo: /images/sections/skills/go.png
-    # summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
+    summary: "Lorem ipsum dolor sit amet. Qui galisum reprehenderit hic suscipit vero et dicta blanditiis ea animi optio ut distinctio natus."
     # url: "https://golang.org/"
 
   - name: Software development
     # logo: /images/sections/skills/cloud.png
     # summary: "Worked with most of the major clouds such as GCP, AWS, Azure etc."
-# - name: Docker
-#   logo: /images/sections/skills/docker.svg
-#   summary: "Write most of the programs as dockerized container. Experienced with multi-stage, multi-arch build process."
+    # - name: Docker
+    #   logo: /images/sections/skills/docker.svg
+    summary: "Lorem ipsum dolor sit amet. Qui galisum reprehenderit hic suscipit vero et dicta blanditiis ea animi optio ut distinctio natus."
 #   url: "https://www.docker.com/"
 
