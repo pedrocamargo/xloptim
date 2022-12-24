@@ -19,3 +19,15 @@
     /* margin-left: 1rem; */
   }
 }
+
+.page-navbar {
+  background-color: #fff;
+}
+
+.page-navbar .navbar-brand {
+  color: #1c2d41;
+}
+
+.page-navbar li a {
+  color: #1c2d41;
+}
