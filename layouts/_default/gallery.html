@@ -1,0 +1,80 @@
+{{ define "header" }}
+<meta name="description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Title }}{{ end }}" />
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/atom-one-dark.min.css"
+/>
+<link rel="stylesheet" href="{{ "/css/layouts/single.css" | relURL }}"/>
+<link rel="stylesheet" href="{{ "/css/navigators/sidebar.css" | relURL }}">
+<!--================= custom style overrides =========================-->
+<link rel="stylesheet" href="{{ "/css/style.css" | relURL }}"/>
+
+{{ end }}
+
+{{ define "navbar" }}
+    {{ partial "navigators/navbar-2.html" . }}
+{{ end }}
+
+
+
+{{ define "content" }}
+<section class="content-section mt-5" id="content-section">
+  <div class="content">
+    <div class="container p-0 read-area">
+
+
+      <!--Content Start-->
+      <div class="page-content">
+
+
+        {{ with .Params.gallery }} 
+        {{ if .enable }}
+        <div class="post-content mt-5" id="post-content">
+          <h1>{{ with .name }}{{ . }}{{ end }}</h1>
+          {{ $galleryLocation := .gallery_folder }}
+          <div class="hes-gallery">
+            {{ range .images }}
+            <img src="{{ $galleryLocation }}{{ .image }}" alt="{{ .year}} - {{ .name }}" data-subtext="{{ .year}} - {{ .name }}" />
+            <span>{{ .year}} - {{ .name }}</span>
+            {{ end }}
+          </div>
+
+          {{ .Page.Content }}
+        </div>
+        {{ end }}
+        {{ end }}
+
+
+
+
+      </div>
+    </div>
+  </div>
+  <!--scroll back to top-->
+  <a id="scroll-to-top" class="btn"><i class="fas fa-chevron-circle-up"></i></a>
+  {{ if .IsTranslated }}
+    {{ partial "navigators/floating-lang-selector.html" . }}
+  {{ end }}
+</section>
+{{ end }}
+
+
+
+{{ define "scripts" }}
+
+<script src="{{ "/js/single.js" | relURL }}"></script>
+<script>
+  hljs.initHighlightingOnLoad();
+</script>
+
+<!-------------- Enable Math support for this page  ---------------->
+{{ if .Params.math }}
+    {{ partial "math.html" . }}
+{{ end }}
+
+<!-------------- Enable mermaid support for this page  ---------------->
+{{ if .Params.mermaid }}
+    {{ partial "mermaid.html" . }}
+{{ end }}
+
+{{ end }}
