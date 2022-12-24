@@ -31,6 +31,21 @@
   background-color: #fff;
 }
 
+.gallery-content {
+  padding: 15px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.gallery-content h1,
+h2 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
 .page-navbar {
   background-color: #fff;
 }

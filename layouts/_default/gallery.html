@@ -29,7 +29,7 @@
 
         {{ with .Params.gallery }} 
         {{ if .enable }}
-        <div class="post-content mt-5" id="post-content">
+        <div class="gallery-content mt-5" id="post-content">
           <h1>{{ with .name }}{{ . }}{{ end }}</h1>
           {{ $galleryLocation := .gallery_folder }}
           <div class="hes-gallery">
@@ -39,7 +39,7 @@
             {{ end }}
           </div>
 
-          {{ .Page.Content }}
+          {{ .Content }}
         </div>
         {{ end }}
         {{ end }}
