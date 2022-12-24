@@ -85,8 +85,10 @@
             {{ end }}
           {{- end }}
           <!-- <div class="dropdown-divider" id="top-navbar-divider"></div> -->
+          {{ $currentSection := .Section }}
+          {{ $gallery := "gallery" }}
           <li class="nav-item">
-            <a class="nav-link" href="/gallery/">Gallery</a>
+            <a class="nav-link {{ if eq $currentSection $gallery }}active{{ end }}" href="/gallery/">Gallery</a>
           </li>
           {{ if gt $sectionCount $maxVisibleSections }}
           <li class="nav-item dropdown">
@@ -109,9 +111,11 @@
         {{ if $shouldAddSeparator }}
           <div class="dropdown-divider" id="top-navbar-divider"></div>
         {{ end }}
+        {{ $currentSection := .Section }}
+        {{ $posts := "posts" }}
         {{ if $blogEnabled }}
           <li class="nav-item">
-            <a class="nav-link" id="blog-link" href="{{ "/posts/" | relLangURL }}">{{ i18n "posts" }}</a>
+            <a class="nav-link {{ if eq $currentSection $posts }}active{{ end }}" id="blog-link" href="{{ "/posts/" | relLangURL }}">{{ i18n "posts" }}</a>
           </li>
         {{ end }}
         {{ if $notesEnabled }}

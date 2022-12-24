@@ -57,3 +57,12 @@ h2 {
 .page-navbar li a {
   color: #1c2d41;
 }
+
+
+.page-navbar .navbar-nav .active {
+  color: #2098d1;
+  background: linear-gradient( 90deg, rgba(2, 0, 36, 1) 0%, rgba(34, 136, 168, 0.1) 0% );
+  border-bottom: 2px solid #2098d1; 
+  transform: translateY(0);
+  transition: none;
+}

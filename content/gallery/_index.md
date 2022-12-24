@@ -2,7 +2,6 @@
 # id: 32
 title: "Woodworking"
 layout: gallery
-permalink: /gallery/
 gallery:
   enable: true
   name: "Woodworking"
