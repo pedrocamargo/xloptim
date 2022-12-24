@@ -1,7 +1,21 @@
 .sidebar-section {
-  order: 1;
+  /* order: 1; */
   flex: 30%;
   max-width: 30%;
   /* background-color: lightsalmon; */
-  transition: all ease-out 0.5s;
+  /* transition: all ease-out 0.5s; */
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+
+@media (max-width: 1400px) {
+  .sidebar-holder {
+    max-width: 24rem;
+  }
+}
+
+@media (max-width: 1200px) {
+  .sidebar-tree {
+    /* margin-left: 1rem; */
+  }
 }
