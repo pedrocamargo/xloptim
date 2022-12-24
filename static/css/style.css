@@ -20,6 +20,17 @@
   }
 }
 
+.gallery-section {
+  width: 1200px;
+  max-width: 100%;
+  background-color: #fff;
+  padding: 0 1em;
+}
+
+.gallery-section .content, .gallery-section .container, .gallery-section .page-content {
+  background-color: #fff;
+}
+
 .page-navbar {
   background-color: #fff;
 }
