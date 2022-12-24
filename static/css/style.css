@@ -1,0 +1,7 @@
+.sidebar-section {
+  order: 1;
+  flex: 30%;
+  max-width: 30%;
+  /* background-color: lightsalmon; */
+  transition: all ease-out 0.5s;
+}
