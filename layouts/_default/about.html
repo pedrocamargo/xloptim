@@ -8,34 +8,19 @@
 <link rel="stylesheet" href="{{ "/css/navigators/sidebar.css" | relURL }}">
 <!--================= custom style overrides =========================-->
 <link rel="stylesheet" href="{{ "/css/style.css" | relURL }}"/>
-
 {{ end }}
 
 {{ define "navbar" }}
     {{ partial "navigators/navbar-3.html" . }}
 {{ end }}
 
-
-
 {{ define "content" }}
-<section class="content-section gallery-section mt-5" id="content-section">
+<section class="content-section about-section mt-5" id="content-section">
   <div class="content">
-    <div class="container p-0 read-area">
-
-
-      <!--Content Start-->
       <div class="page-content">
-
-          {{ .Content }}
-        </div>
-        {{ end }}
-        {{ end }}
-
-
-
-
+        <h1 class="text-center mb-5">{{ .Title }}</h1>
+        {{ .Content }}
       </div>
-    </div>
   </div>
   <!--scroll back to top-->
   <a id="scroll-to-top" class="btn"><i class="fas fa-chevron-circle-up"></i></a>

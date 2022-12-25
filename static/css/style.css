@@ -16,8 +16,33 @@
 
 @media (max-width: 1200px) {
   .sidebar-tree {
-    /* margin-left: 1rem; */
+    margin-left: 1rem;
   }
+}
+
+.about-section {
+  width: 1000px;
+  max-width: 100%;
+  /* background-color: #fff; */
+  /* padding: 6em 0 1em 0; */
+  background-color: #f9fafc;
+}
+
+.about-section .content {
+  margin-top: 100px;
+  background-color: transparent;
+}
+
+.about-section .page-content {
+  width: 60em;
+  max-width: 100%;
+  background-color: #f9fafc;
+  margin-top: 5em;
+  margin: 7em auto 1em auto;
+}
+
+.about-section .page-content ul {
+  color: #3c4858;
 }
 
 .gallery-section {
