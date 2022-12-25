@@ -85,6 +85,11 @@
             {{ end }}
           {{- end }}
           {{ $currentSection := .Section }}
+          {{ $about := "about" }}
+          <li class="nav-item">
+            <a class="nav-link {{ if eq $currentSection $about }}active{{ end }}" href="/about/">About</a>
+          </li>
+          {{ $currentSection := .Section }}
           {{ $gallery := "gallery" }}
           <li class="nav-item">
             <a class="nav-link {{ if eq $currentSection $gallery }}active{{ end }}" href="/gallery/">Gallery</a>
