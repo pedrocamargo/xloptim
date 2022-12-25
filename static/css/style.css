@@ -1,3 +1,10 @@
+.initial-navbar .navbar-nav .active,
+.initial-navbar li a:hover {
+  color: #2098d1;
+  /* transition: all 0.3s ease-out;
+  transform: translateY(-2px); */
+}
+
 .sidebar-section {
   /* order: 1; */
   flex: 30%;
