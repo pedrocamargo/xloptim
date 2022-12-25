@@ -13,6 +13,12 @@ gallery:
     - image: "second-image.jpg"
       name: "Second image"
       year: 2022
+    - image: "tres.jpg"
+      name: "Third image"
+      year: 2021
+    - image: "cuatro.jpg"
+      name: "Fourth image"
+      year: 2020
     # - image: "image.jpg"
     #   name: "Name"
     #   year: 2022
