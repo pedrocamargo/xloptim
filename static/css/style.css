@@ -100,11 +100,10 @@
 /******* Gallery *******/
 
 .gallery-content {
+  width: 1200px;
+  max-width: 100%;
   padding: 15px 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  margin: 0 auto;
 }
 
 .gallery-content h1,
@@ -122,8 +121,15 @@ h2 {
   columns: 4;
 }
 
+@media (max-width: 600px) {
+  .hes-gallery {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
 .hes-gallery img {
   width: 100%;
+  aspect-ratio: 9 / 6;
   object-fit: cover;
   transition: 0.3s;
   cursor: pointer;
