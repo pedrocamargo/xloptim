@@ -31,12 +31,17 @@
         {{ if .enable }}
         <div class="gallery-content mt-5" id="post-content">
           <h1 class="text-center">{{ with .name }}{{ . }}{{ end }}</h1>
-          {{ $galleryLocation := .gallery_folder }}
           <div class="hes-gallery">
+            <ul class="hes-gallery-ul">
             {{ range .images }}
-            <img src="{{ $galleryLocation }}{{ .image }}" alt="{{ .year}} - {{ .name }}" data-subtext="{{ .year}} - {{ .name }}" />
-            <!-- <span>{{ .year}} - {{ .name }}</span> -->
+            <li>
+            {{ $imagePath := printf "/gallery/%s" .image }}
+            {{- $image := resources.Get $imagePath -}}
+            <img src="{{ if gt $image.Width 1600 }}{{ ($image.Resize "1600x").RelPermalink }}{{ else }}{{ $image.RelPermalink }}{{ end }}" alt="{{ .year}} - {{ .name }}" data-subtext="{{ .year}} - {{ .name }}" />
+            <p class="image-name text-center pt-2">{{ .year}} - {{ .name }}</p>
+            </li>
             {{ end }}
+          </ul>
           </div>
 
           {{ .Content }}

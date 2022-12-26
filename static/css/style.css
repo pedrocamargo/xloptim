@@ -113,7 +113,7 @@ h2 {
 }
 
 
-.hes-gallery {
+.hes-gallery-ul {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 20px;
@@ -122,15 +122,25 @@ h2 {
 }
 
 @media (max-width: 600px) {
-  .hes-gallery {
+  .hes-gallery-ul {
     grid-template-columns: 1fr 1fr;
   }
 }
 
-.hes-gallery img {
+.hes-gallery-ul li {
+  list-style-type: none;
+}
+
+.hes-gallery-ul li img {
   width: 100%;
   aspect-ratio: 9 / 6;
   object-fit: cover;
   transition: 0.3s;
   cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .image-name {
+    font-size: 0.75rem;
+  }
 }

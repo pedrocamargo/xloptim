@@ -5,7 +5,6 @@ layout: gallery
 gallery:
   enable: true
   name: "Woodworking"
-  gallery_folder: "/img/gallery/"
   images:
     - image: "first-image.jpg"
       name: "First image"
@@ -14,10 +13,10 @@ gallery:
       name: "Second image"
       year: 2022
     - image: "tres.jpg"
-      name: "Third image"
+      name: "Cat in the basket"
       year: 2021
     - image: "cuatro.jpg"
-      name: "Fourth image"
+      name: "Cat sleeping"
       year: 2020
     # - image: "image.jpg"
     #   name: "Name"
