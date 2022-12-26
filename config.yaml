@@ -52,6 +52,6 @@ params:
     # specify whether you want to display the newsletter form
     enable: false
     # specify which newsletter provider you want to use
-    provider: mailchimp
+    # provider: mailchimp
     # specify the target URL for the subscription form
-    mailchimpURL: https://github.us1.list-manage.com/subscribe/post?u=19de52a4603135aae97163fd8&amp;id=094a24c76e
+    # mailchimpURL: https://github.us1.list-manage.com/subscribe/post?u=19de52a4603135aae97163fd8&amp;id=094a24c76e
