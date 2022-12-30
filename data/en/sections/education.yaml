@@ -28,7 +28,7 @@ degrees:
       # - title: Nullam vitae orci tincidunt purus viverra pulvinar.
       #   url: "#"
 
-  - name: M.S.C in Transportation Planning and Operations
+  - name: M.Sc. in Transportation Planning and Operations
     icon: fa-university
     timeframe: 2008 - 2010
     institution:
@@ -38,7 +38,7 @@ degrees:
       - title: Hybrid Simulation-Optimization model for wagons dispatch on a railroad
         url: "#"
 
-  - name: B.S. in Civil Engineering
+  - name: B.Sc. in Civil Engineering
     icon: fa-university
     timeframe: 1999 - 2004
     institution:

@@ -16,7 +16,7 @@ buttons:
     filter: "transportmodeling"
   - name: "Freight Modeling"
     filter: "freight"
-  - name: Big Data
+  - name: "Big Data"
     filter: "bigdata"
 
 # your publications
@@ -25,12 +25,10 @@ publications:
     publishedIn:
       name: Transportation Research Record (16), 9033-9044.
       date: 2021
-      # url: https://example.com
     authors:
       - name: Pedro Camargo
         url: https://www.linkedin.com/in/pedrocamargo/
       - name: Erin Pammenter (Endrei)
-        # url: https://example.com
       - name: Aliasgar Inayathusein
         url: https://www.linkedin.com/in/aliasgar-ali-inayathusein-592a9356/
     paper:
@@ -43,16 +41,13 @@ publications:
     publishedIn:
       name: Transportation Research Record 2673 (4), 930-940.
       date: 2019
-      # url: https://example.com
     authors:
       - name: Jan C Zill
         url: https://www.linkedin.com/in/janzill/
       - name: Pedro Camargo
         url: https://www.linkedin.com/in/pedrocamargo/
       - name: NS Daisy
-        # url: https://example.com
       - name: T Veitch
-        # url: https://example.com
     paper:
       summary: Stochastic user equilibrium is a behaviorally realistic framework for strategic demand modeling and forecasting in cities/regions where there are multiple tolled facilities, especially when it comes to patronage forecasting for existing or planned tolled facilities. However, there is currently no algorithm available in the literature or in commercial software that provides a comprehensive approach for stochastic user equilibrium assignment that addresses the generation of route choice sets for tolled roads, path overlap, and high levels of convergence. This paper presents a novel choice set generation algorithm combined with the path-size logit model and the bi-conjugate Frank-Wolfe equilibrium assignment in a comprehensive algorithm for forecasting tolled road patronage, along with the results of its application to a real-life model in Brisbane, Australia.
       url: https://journals.sagepub.com/doi/abs/10.1177/0361198119837496
@@ -63,14 +58,11 @@ publications:
     publishedIn:
       name: Transportation Research Record 2646 (1), 68-76.
       date: 2017
-      # url: https://example.com
     authors:
       - name: Pedro Camargo
         url: https://www.linkedin.com/in/pedrocamargo/
       - name: S Hong
-        # url: https://example.com
       - name: V Livshits
-        # url: https://example.com
     paper:
       summary: Progress in practical applications of large, passively collected data sets is often hindered by the lack of appropriate analytical tools or the proprietary nature of applicable software. One of the most widely used data sources in the United States is truck GPS data that are commercially available from a few sources nationwide. Although many large GPS data sets are used in the development of tour-based truck models, the development of a fairly general approach to data analysis and processing that can be readily applied to various GPS data sets without need of proprietary software is still of interest. First, this paper presents a set of tools and techniques used to transform low-frequency truck GPS data available from commercial sources into complete trajectories on the network, that is, sequences of links constituting continuous paths traversed by each truck, with corresponding time stamps on each of the nodes. For this exercise, only open-source software was used, and the algorithm implementation was released as an open-source tool under a business-friendly license. Second, use of the truck GPS data was expanded beyond the standard extraction of trip matrices and estimation of tour models. Additional applications include select link analysis, time-of-day analysis, and trajectory data visualization.
       url: https://journals.sagepub.com/doi/abs/10.3141/2646-08
@@ -81,20 +73,16 @@ publications:
     publishedIn:
       name: Journal of the Transportation Research Board, 73-83.
       date: 2013
-      # url: https://example.com
     authors:
-      - name: F Ranaiefar
+      - name: Fatemeh Ranaiefar
         url: https://www.linkedin.com/in/fatemeh-ranaiefar-6544311a/
       - name: JYJ Chow
-        # url: https://example.com
       - name: D Rodriguez-Roman
-        # url: https://example.com
-      - name: PV Camargo
+      - name: Pedro Camargo
         url: https://www.linkedin.com/in/pedrocamargo/
       - name: SG Ritchie
-        # url: https://example.com
     paper:
       summary: "Freight forecasting models are data intensive and require many explanatory variables to be accurate. One problem, particularly in the United States, is that public data sources are mostly at highly aggregate geographic levels but models with more disaggregate geographic levels are required for regional freight transportation planning. A second problem is that supply chain effects are often ignored or modeled with economic input–output models that lack explanatory power. This study addressed these challenges with a structural equation modeling approach that was not confined to a specific spatial structure, as spatial regression models would have been, and allowed correlations between commodities. A model for structural commodity generation that was based on freight analysis framework was specified, estimated, and shown to provide a better fit to the data than did independent regression models for each commodity. Three features of the model are discussed: indirect effects, supply chain elasticity, and intrazonal supply–demand interactions. A goal programming method was used with imputed data to validate the geographic scalability of the model"
-      url: https://example.com
-    categories: ["image-processing"]
-    tags: ["Image Processing", "Computer Vision"]
+      url: https://journals.sagepub.com/doi/10.3141/2378-08?icid=int.sj-abstract.citing-articles.70
+    categories: ["transportmodeling", "freight"]
+    tags: ["Freight Modeling"]
