@@ -13,12 +13,12 @@ section:
 skills:
   - name: Transport Model Development
     # logo: /images/sections/skills/kubernetes.png
-    summary: "Lorem ipsum dolor sit amet. Qui galisum reprehenderit hic suscipit vero et dicta blanditiis ea animi optio ut distinctio natus."
+    summary: "Development of complete demand models, particularly demand models and the sofware that implements them"
     # url: "https://kubernetes.io/"
 
   - name: Freight modelling
     # logo: /images/sections/skills/go.png
-    summary: "Lorem ipsum dolor sit amet. Qui galisum reprehenderit hic suscipit vero et dicta blanditiis ea animi optio ut distinctio natus."
+    summary: "Freight models are a different beast than personal travel models, particularly commodity-based models"
     # url: "https://golang.org/"
 
   - name: Software development
@@ -26,6 +26,6 @@ skills:
     # summary: "Worked with most of the major clouds such as GCP, AWS, Azure etc."
     # - name: Docker
     #   logo: /images/sections/skills/docker.svg
-    summary: "Lorem ipsum dolor sit amet. Qui galisum reprehenderit hic suscipit vero et dicta blanditiis ea animi optio ut distinctio natus."
+    summary: "Focusing mostly on Python and Cython, which includes the development of QGIS plugins and web APIs"
 #   url: "https://www.docker.com/"
 
