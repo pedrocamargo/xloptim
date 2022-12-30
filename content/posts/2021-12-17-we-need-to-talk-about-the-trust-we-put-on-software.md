@@ -7,7 +7,7 @@ url: /we-need-to-talk-about-the-trust-we-put-on-software/
 categories:
   - rant
 ---
-<span style="font-weight: 400">Written in collaboration with “</span>[<span style="font-weight: 400">Jan Zill</span>](https://www.linkedin.com/in/janzill/)<span style="font-weight: 400"> .</span>
+<span style="font-weight: 400">Written in collaboration with </span>[<span style="font-weight: 400">Jan Zill</span>](https://www.linkedin.com/in/janzill/)<span style="font-weight: 400"> .</span>
 
 <span style="font-weight: 400">Before we begin, let us say that we will be speaking from a transportation modeling perspective, but there is no reason why this would not be true for other fields that rely heavily on (proprietary) software. Now back to the topic at hand.</span>
 
