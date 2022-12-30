@@ -7,12 +7,12 @@ image: "images/author/pedro.jpg"
 # give your some contact information. they will be used in the footer
 contactInfo:
   email: "pedro@outerloop.io"
-  phone: ""
+  # phone: "+19498707512"
   github: pedrocamargo
   linkedin: pedrocamargo
 
 # some summary about what you do
 summary:
   - I am a Transportation Scientist
-  - I am a Open-Source developer
-  - I love transportation model development
+  - I develop Open-Source software
+  - I develop transportation models

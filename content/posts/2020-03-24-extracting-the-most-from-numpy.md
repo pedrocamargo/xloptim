@@ -277,4 +277,4 @@ Multi-threading NumPy functions, especially in the age of an ever-growing number
 
 If you are writing algorithms, instantiating arrays and re-utilizing them instead of creating new ones all the time is something you should consider. We have done that in several instances during the development of the equilibrium assignment algorithms in AequilibraE and the gains were perceptible (but we missed the chance to measure them).
 
-[If you want to try all of this at home, all the code I wrote can be downloaded here (Pipfile included)](http://xl-optim.com/site/files/cython_experiment.zip "Cython experiments")
+[If you want to try all of this at home, all the code I wrote can be downloaded here (Pipfile included)](http://xl-optim.com/files/cython_experiment.zip "Cython experiments")
