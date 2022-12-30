@@ -21,7 +21,7 @@ buttons:
 
 # your publications
 publications:
-  - title: Mobility-as-a-Service and Demand-Responsive Transport: Practical Implementation in Traditional Forecasting Models
+  - title: Mobility-as-a-Service and Demand-Responsive Transport - Practical Implementation in Traditional Forecasting Models
     publishedIn:
       name: Transportation Research Record (16), 9033-9044.
       date: 2021
@@ -39,7 +39,7 @@ publications:
     categories: ["transportmodeling"]
     tags: ["TNC", "Agent-Based simulation", "Transport Modeling"]
 
-  - title: "Toll Choice and Stochastic User Equilibrium: Ticking All the Boxes."
+  - title: Toll Choice and Stochastic User Equilibrium - Ticking All the Boxes.
     publishedIn:
       name: Transportation Research Record 2673 (4), 930-940.
       date: 2019
@@ -59,7 +59,7 @@ publications:
     categories: ["transportmodeling"]
     tags: tags: ["Route Choice", "Traffic Assignment", "Transport Modeling"]
 
-  - title: Expanding the uses of truck GPS data in freight modeling and planning activities.
+  - title: Expanding the uses of truck GPS data in freight modeling and planning activities
     publishedIn:
       name: Transportation Research Record 2646 (1), 68-76.
       date: 2017
