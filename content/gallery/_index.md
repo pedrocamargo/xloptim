@@ -45,7 +45,7 @@ gallery:
     - image: "prasad_board.jpg"
       name: "Serving board - Blackwood, Silver Ash, Red Cedar (collab with my daughter)"
       year: 2021
-     - image: "jbox_sophia.jpg"
+    - image: "jbox_sophia.jpg"
       name: "Jewellery Box - Red Cedar, Silver Ash and Pine"
       year: 2021
     - image: "jbox_sophia2.jpg"
