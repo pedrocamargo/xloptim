@@ -40,7 +40,7 @@ gallery:
       name: "Coaster - Blackwood, Silver Ash (collab with my daughter)"
       year: 2021
     - image: "kingston_board.jpg"
-      name: "Serving board - Blackwood, Silver Ash, Red Cedar (collab with my daughter)"
+      name: "Serving board - Blackwood, Silver Ash and Red Cedar (collab with my daughter)"
       year: 2021
     - image: "prasad_board.jpg"
       name: "Serving board - Blackwood, Silver Ash, Red Cedar (collab with my daughter)"
@@ -53,7 +53,7 @@ gallery:
       year: 2021
     - image: "tbox_Chris.jpg"
       name: "Tea Box - Tassie Oak & Budgeroo"
-      year: 2021    
+      year: 2021  
     - image: "sabrina_board.jpg"
       name: "Cutting board - New Guinea Rosewood & mistery wood"
       year: 2020
