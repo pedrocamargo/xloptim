@@ -46,7 +46,7 @@ gallery:
       name: "Jewellery Box"
       year: 2021
     - image: "tbox_Chris.jpg"
-      name: "Tea Box - Tassie Oak"
+      name: "Tea Box - Tassie Oak & Budgeroo"
       year: 2021    
     - image: "sabrina_board.jpg"
       name: "Cutting board - New Guinea Rosewood & mistery wood"
