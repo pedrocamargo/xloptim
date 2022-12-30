@@ -1,7 +1,7 @@
 ---
 id: 1074
 title: 'Manual work for a transportation scientist'
-date: '2022-12-31T00:00:00+10:00'
+date: '2022-12-30T00:00:00+10:00'
 author: pedro
 layout: post
 categories:
@@ -40,6 +40,5 @@ every decision more important and every mistake that much more costly.</span>
 <span style="font-weight: 400"></span>
 <span style="font-weight: 400"></span>
 <span style="font-weight: 400"></span>
-<span style="font-weight: 400"></span>
+<span style="font-weight: 400">I also get to celebrate a new piece I am happy with every once in a while and touch the result of my own work, which is somebody quite gratifying when you spend most of the day in front of the computer.</span>
 
-I also get to celebrate a new piece I am happy with every once in a while and touch the result of my own work, which is somebody quite gratifying when you spend most of the day in front of the computer.
