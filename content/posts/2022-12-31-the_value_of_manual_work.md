@@ -1,9 +1,9 @@
 ---
 id: 1074
-title: 'Manual work for a transportation scientist'
-date: '2022-12-30T00:00:00+10:00'
+title: "Woodwork for a transportation scientist"
+date: "2022-12-31T00:00:00+10:00"
 author: pedro
-layout: post
+url: /manual_work_for_a_transportation_scientist/
 categories:
     - rant
 ---
