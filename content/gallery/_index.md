@@ -6,19 +6,11 @@ gallery:
   enable: true
   name: "Woodworking"
   images:
-    - image: "first-image.jpg"
-      name: "First image"
+    - image: "tool_box.jpg"
+      name: "Tool Box"
       year: 2022
-    - image: "second-image.jpg"
-      name: "Second image"
+    - image: "tool_box_open.jpg"
+      name: "Tool Box"
       year: 2022
-    - image: "tres.jpg"
-      name: "Cat in the basket"
-      year: 2021
-    - image: "cuatro.jpg"
-      name: "Cat sleeping"
-      year: 2020
-    # - image: "image.jpg"
-    #   name: "Name"
-    #   year: 2022
+
 ---
