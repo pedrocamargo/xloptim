@@ -12,108 +12,89 @@ section:
 buttons:
   - name: All
     filter: "all"
-  - name: "Machine Learning"
-    filter: "machinelearning"
-  - name: "Image Processing"
-    filter: "image-processing"
-  - name: Security
-    filter: "security"
+  - name: "Transport Modeling"
+    filter: "transportmodeling"
+  - name: "Freight Modeling"
+    filter: "freight"
+  - name: Big Data
+    filter: "bigdata"
 
 # your publications
 publications:
-  - title: Practical Implementation in Traditional Forecasting Models.
+  - title: Mobility-as-a-Service and Demand-Responsive Transport: Practical Implementation in Traditional Forecasting Models
     publishedIn:
       name: Transportation Research Record (16), 9033-9044.
       date: 2021
-      url: https://example.com
+      # url: https://example.com
     authors:
-      - name: P Camargo
+      - name: Pedro Camargo
+        url: https://www.linkedin.com/in/pedrocamargo/
+      - name: Erin Pammenter (Endrei)
         # url: https://example.com
-      - name: E Pammenter
-        # url: https://example.com
-      - name: A Inayathusein
-        # url: https://example.com
+      - name: Aliasgar Inayathusein
+        url: https://www.linkedin.com/in/aliasgar-ali-inayathusein-592a9356/
     paper:
-      summary: Voluptate in id id voluptate laboris. Minim mollit aliquip sit aliqua ut exercitation voluptate eiusmod consequat pariatur sunt enim veniam. Velit esse tempor laboris anim tempor officia. Magna non labore duis do esse sit do ipsum culpa. Officia consequat id non duis culpa dolor. Excepteur magna non nostrud cupidatat aute aliqua aliquip.
-      url: https://example.com
-    categories: ["machinelearning", "image-processing"]
-    tags: ["Machine Learning", "Autonomous Driving", "Computer Vision"]
+      summary: The increasing effect of Transport Network Companies (TNCs) in major US cities, allied to the expectation that connected and autonomous vehicles (CAVs) will become the prevailing type of automobile on the streets in the coming decades, requires such a trend to be reflected in our forecasting models. Yet, most of the efforts undertaken in the United States and elsewhere are largely focused on understanding the demand for such types of transportation and have left aside the analysis of crucial differences in envisaged systems, such as pooled versus single-occupancy vehicles, use of CAVs as access modes to mass transit, and the cost corresponding to different levels of service in citywide systems. In this paper we introduce a new algorithm for modeling pooled CAVs and a framework for integrating this into traditional forecasting models. We also present the preliminary results of an application of the proposed methodology to the metropolitan region of Vancouver, British Columbia. The results are promising, although a few implementation choices made for this study have resulted in poor computational performance.
+      url: https://journals.sagepub.com/doi/abs/10.1177/0361198120969368
+    categories: ["transportmodeling"]
+    tags: ["TNC", "Agent-Based simulation", "Transport Modeling"]
 
   - title: "Toll Choice and Stochastic User Equilibrium: Ticking All the Boxes."
     publishedIn:
       name: Transportation Research Record 2673 (4), 930-940.
       date: 2019
-      url: https://example.com
+      # url: https://example.com
     authors:
-      - name: JC Zill
-        # url: https://example.com
-      - name: P Camargo
-        # url: https://example.com
+      - name: Jan C Zill
+        url: https://www.linkedin.com/in/janzill/
+      - name: Pedro Camargo
+        url: https://www.linkedin.com/in/pedrocamargo/
       - name: NS Daisy
         # url: https://example.com
       - name: T Veitch
         # url: https://example.com
     paper:
-      summary: Ullamco magna minim cupidatat Lorem ea ex aliqua fugiat et. Dolor quis cillum ea duis irure et commodo aliquip consectetur ullamco labore ut anim nisi. Commodo reprehenderit est consectetur tempor adipisicing occaecat exercitation amet do aliquip dolor do irure. Labore officia ut magna pariatur reprehenderit et ex sit sunt. Magna proident ullamco adipisicing sit.
-      url: https://example.com
-    categories: ["image-processing"]
-    tags: ["Image Processing", "Computer Vision"]
+      summary: Stochastic user equilibrium is a behaviorally realistic framework for strategic demand modeling and forecasting in cities/regions where there are multiple tolled facilities, especially when it comes to patronage forecasting for existing or planned tolled facilities. However, there is currently no algorithm available in the literature or in commercial software that provides a comprehensive approach for stochastic user equilibrium assignment that addresses the generation of route choice sets for tolled roads, path overlap, and high levels of convergence. This paper presents a novel choice set generation algorithm combined with the path-size logit model and the bi-conjugate Frank-Wolfe equilibrium assignment in a comprehensive algorithm for forecasting tolled road patronage, along with the results of its application to a real-life model in Brisbane, Australia.
+      url: https://journals.sagepub.com/doi/abs/10.1177/0361198119837496
+    categories: ["transportmodeling"]
+    tags: tags: ["Route Choice", "Traffic Assignment", "Transport Modeling"]
 
   - title: Expanding the uses of truck GPS data in freight modeling and planning activities.
     publishedIn:
       name: Transportation Research Record 2646 (1), 68-76.
       date: 2017
-      url: https://example.com
+      # url: https://example.com
     authors:
-      - name: PV Camargo
-        # url: https://example.com
+      - name: Pedro Camargo
+        url: https://www.linkedin.com/in/pedrocamargo/
       - name: S Hong
         # url: https://example.com
       - name: V Livshits
         # url: https://example.com
     paper:
-      summary: Ullamco magna minim cupidatat Lorem ea ex aliqua fugiat et. Dolor quis cillum ea duis irure et commodo aliquip consectetur ullamco labore ut anim nisi. Commodo reprehenderit est consectetur tempor adipisicing occaecat exercitation amet do aliquip dolor do irure. Labore officia ut magna pariatur reprehenderit et ex sit sunt. Magna proident ullamco adipisicing sit.
-      url: https://example.com
-    categories: ["image-processing"]
-    tags: ["Image Processing", "Computer Vision"]
+      summary: Progress in practical applications of large, passively collected data sets is often hindered by the lack of appropriate analytical tools or the proprietary nature of applicable software. One of the most widely used data sources in the United States is truck GPS data that are commercially available from a few sources nationwide. Although many large GPS data sets are used in the development of tour-based truck models, the development of a fairly general approach to data analysis and processing that can be readily applied to various GPS data sets without need of proprietary software is still of interest. First, this paper presents a set of tools and techniques used to transform low-frequency truck GPS data available from commercial sources into complete trajectories on the network, that is, sequences of links constituting continuous paths traversed by each truck, with corresponding time stamps on each of the nodes. For this exercise, only open-source software was used, and the algorithm implementation was released as an open-source tool under a business-friendly license. Second, use of the truck GPS data was expanded beyond the standard extraction of trip matrices and estimation of tour models. Additional applications include select link analysis, time-of-day analysis, and trajectory data visualization.
+      url: https://journals.sagepub.com/doi/abs/10.3141/2646-08
+    categories: ["transportmodeling", "freight", "bigdata"]
+    tags: ["Freight Modeling", "Sensor data", "Freight", "GPS data"]
 
-  - title: Geographic scalability and supply chain elasticity of a structural commodity generation model using public data.
+  - title: Structural Commodity Generation Model that Uses Public Data - Geographic Scalability and Supply Chain Elasticity Analysis
     publishedIn:
       name: Journal of the Transportation Research Board, 73-83.
       date: 2013
-      url: https://example.com
+      # url: https://example.com
     authors:
       - name: F Ranaiefar
-        # url: https://example.com
+        url: https://www.linkedin.com/in/fatemeh-ranaiefar-6544311a/
       - name: JYJ Chow
         # url: https://example.com
       - name: D Rodriguez-Roman
         # url: https://example.com
       - name: PV Camargo
-        # url: https://example.com
+        url: https://www.linkedin.com/in/pedrocamargo/
       - name: SG Ritchie
         # url: https://example.com
     paper:
-      summary: Ullamco magna minim cupidatat Lorem ea ex aliqua fugiat et. Dolor quis cillum ea duis irure et commodo aliquip consectetur ullamco labore ut anim nisi. Commodo reprehenderit est consectetur tempor adipisicing occaecat exercitation amet do aliquip dolor do irure. Labore officia ut magna pariatur reprehenderit et ex sit sunt. Magna proident ullamco adipisicing sit.
+      summary: Freight forecasting models are data intensive and require many explanatory variables to be accurate. One problem, particularly in the United States, is that public data sources are mostly at highly aggregate geographic levels but models with more disaggregate geographic levels are required for regional freight transportation planning. A second problem is that supply chain effects are often ignored or modeled with economic input–output models that lack explanatory power. This study addressed these challenges with a structural equation modeling approach that was not confined to a specific spatial structure, as spatial regression models would have been, and allowed correlations between commodities. A model for structural commodity generation that was based on freight analysis framework was specified, estimated, and shown to provide a better fit to the data than did independent regression models for each commodity. Three features of the model are discussed: indirect effects, supply chain elasticity, and intrazonal supply–demand interactions. A goal programming method was used with imputed data to validate the geographic scalability of the model.
       url: https://example.com
     categories: ["image-processing"]
     tags: ["Image Processing", "Computer Vision"]
-# - title: An Example Paper on Security
-#   publishedIn:
-#     name: 2020 IEEE Region Symposium (TENSYMP)
-#     date: 7 June 2020
-#     url: https://example.com
-#   authors:
-#   - name: Dr. Madman
-#     url: https://example.com
-#   - name: Dr. Lessmad
-#     url: https://example.com
-#   - name: Dr. Moremad
-#     url: https://example.com
-#   - name: Dr. Goodman
-#     url: https://example.com
-#   paper:
-#     summary: Dolor ad cupidatat pariatur nulla ipsum ex ullamco nisi anim ullamco. Dolore elit esse in exercitation minim aliqua. Amet velit incididunt magna laboris. Proident reprehenderit deserunt ad officia duis dolor. Tempor nostrud ullamco ullamco sint deserunt cupidatat irure minim consectetur nulla adipisicing sunt.
-#     url: https://example.com
-#   categories: ["security"]
-#   tags: ["Machine Learning", "Autonomous Driving", "Machine Vision"]

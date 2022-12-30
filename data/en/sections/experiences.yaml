@@ -12,8 +12,8 @@ section:
 experiences:
   - company:
       name: Argonne National Laboratory
-      url: "https://www.example.com"
-      location: Chicago, Illinois, United States
+      url: "https://vms.taps.anl.gov/tools/polaris/"
+      location: Chicago, Illinois, United States (remote)
       # company overview
       # overview: Example Co. is a widely recognized company for cloud-native development. It builds tools for Kubernetes.
     positions:
@@ -25,17 +25,9 @@ experiences:
         responsibilities:
           - I am part of the team developing the modeling platform Polaris and its associated metropolitan models, to date focusing mostly on the supply data model and software engineering
 
-      # - designation: Junior Software Engineer
-      #   start: Nov 2017
-      #   end: Oct 2019
-      #   responsibilities:
-      #     - Implement and test xyz feature for abc tool.
-      #     - Support client for abc tool.
-      #     - Learn k,d,w technology for xyz.
-
   - company:
       name: Outer Loop Consulting
-      # url: "https://www.example.com"
+      url: "https://www.outerloop.io"
       location: Brisbane, Australia
       # overview: About the company
     positions:
@@ -47,7 +39,7 @@ experiences:
 
   - company:
       name: AequilibraE
-      # url: "https://www.example.com"
+      url: "https://www.aequilibrae.com"
       location: Brisbane, Queensland, Australia
       # overview: About the company
     positions:
@@ -59,23 +51,22 @@ experiences:
 
   - company:
       name: PHYLA.earth
-      # url: "https://www.example.com"
-      location: Zambia
+      url: "https://www.phyla.earth"
+      location: Zambia (remote)
       # overview: About the company
     positions:
       - designation: Associate
         start: Jun 2021
         # end: Jan 2016
         responsibilities:
-          # - Developing an open source transportation modeling software www.aequilibrae.com
+          # - 
 
   - company:
       name: Subscribbe
-      # url: "https://www.example.com"
-      location: London, United Kingdom
+      location: London, United Kingdom (remote)
       # overview: About the company
     positions:
-      - designation: Founder and developer
+      - designation: Principal Scientist
         start: Jun 2019
         end: Sep 2021
         responsibilities:
@@ -83,7 +74,7 @@ experiences:
 
   - company:
       name: Veitch Lister Consulting
-      # url: "https://www.example.com"
+      url: "https://www.veitchlister.com"
       location: Brisbane, Queensland, Australia
       # company overview
       # overview: Example Co. is a widely recognized company for cloud-native development. It builds tools for Kubernetes.
@@ -92,21 +83,18 @@ experiences:
         start: Aug 2018
         # don't provide end date if you are currently working there. It will be replaced by "Present"
         end: Jun 2019
-        # give some points about what was your responsibilities at the company.
         # responsibilities:
-        #   - I am part of the team developing the modeling platform Polaris and its associated metropolitan models, to date focusing mostly on the supply data model and software engineering
+        #   - 
 
       - designation: Senior Model developer
         start: Feb 2016
         end: Aug 2018
         # responsibilities:
-        #   - Implement and test xyz feature for abc tool.
-        #   - Support client for abc tool.
-        #   - Learn k,d,w technology for xyz.
+        #   - .
 
   - company:
       name: Instituto de Pesquisa Econômica Aplicada (Ipea)
-      # url: "https://www.example.com"
+      url: "https://www.ipea.gov.br/"
       location: Brasilia, Brasil
       # overview: About the company
     positions:
@@ -133,8 +121,8 @@ experiences:
 
   - company:
       name: Vale
-      # url: "http://www.azmag.gov"
-      # location: Phoenix, AZ
+      url: "http://www.vale.com"
+      location: Belo Horizonte, MG, Brazil
       # overview: About the company
     positions:
       - designation: Engineer
@@ -147,8 +135,8 @@ experiences:
 
   - company:
       name: Logit Engenharia Consultiva
-      # url: "http://www.azmag.gov"
-      # location: Phoenix, AZ
+      url: "http://www.logiteng.com"
+      location: Sao Paulo, SP, Brazil
       # overview: About the company
     positions:
       - designation: Engineer
