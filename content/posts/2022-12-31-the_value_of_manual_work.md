@@ -33,10 +33,9 @@ and with our full attention.</span>
 
 <span style="font-weight: 400">The second important aspect is that that woodworking is a constant exercise in patience and humility. There is no *`ctrl+z`*. 
 There is no undoing a cut, a stroke of a mallet or a chisel movement. There is no version control to switch between two versions of the same project. This makes
-every decision more important and every mistake that much more costly. , where I can see concrete examples of corners 
-cut and poor technique.</span>
+every decision more important and every mistake that much more costly.</span>
 
-<span style="font-weight: 400"></span>
+<span style="font-weight: 400">I can also see concrete examples of corners cut and poor technique.</span>
 <span style="font-weight: 400"></span>
 <span style="font-weight: 400"></span>
 <span style="font-weight: 400"></span>
