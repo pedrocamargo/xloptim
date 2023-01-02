@@ -22,23 +22,37 @@ also something my father was quite fond of, so I still had (and have) some of hi
 
 <span style="font-weight: 400">This time it was different though, as I decided to take formal classes before I developed too many bad habits,
 so I chose [Richard Vaughn's](http://richardvaughan.com.au/index.html) course. After a mandatory break due to COVID19 and the slow start of any
-activity, I have started to make my own furniture, ranging from jewelry boxes and picture frames to tables and tool cabinets (and accumulating
-an obcene amount of tools and rare wood).</span>
+activity, I am now making (some of) my own furniture, ranging from jewelry boxes and picture frames to tables and tool cabinets (and accumulating
+an obcene amount of tools and rare wood in the process).</span>
 
 <span style="font-weight: 400">But what does that have to be with transportation sciences, this blog or my professional journey? Quite a bit, as it turns out.</span>
 
 <span style="font-weight: 400">The first important aspect of my woodworking journey is that Richard takes quite a bit of pride on his students' work and 
-is quite strict on techniques and results, so it acts as a good reminder that everything we do deserves to me conducted in a quite deliberate manner 
+is quite strict on techniques and results, so it is a constant reminder that everything we do deserves to be conducted in a deliberate manner 
 and with our full attention.</span>
 
 <span style="font-weight: 400">The second important aspect is that that woodworking is a constant exercise in patience and humility. There is no *`ctrl+z`*. 
-There is no undoing a cut, a stroke of a mallet or a chisel movement. There is no version control to switch between two versions of the same project. This makes
-every decision more important and every mistake that much more costly.</span>
+There is no undoing a cut, a stroke of a mallet or a chisel movement. There is no version control to switch between two takes on the same project. This makes
+every decision more important and every mistake much more costly.</span>
 
-<span style="font-weight: 400">I can also see concrete examples of corners cut and poor technique.</span>
-<span style="font-weight: 400"></span>
-<span style="font-weight: 400"></span>
-<span style="font-weight: 400"></span>
-<span style="font-weight: 400"></span>
-<span style="font-weight: 400">I also get to celebrate a new piece I am happy with every once in a while and touch the result of my own work, which is somebody quite gratifying when you spend most of the day in front of the computer.</span>
+<span style="font-weight: 400">The third important lesson comes from the inconsistent, yet beautiful, nature of wood. Tempering expectations and exercising flexibility 
+becomes crucial when you are working with a material that could be much different than its external appearance suggests. It is not quite as hard as dealing
+with people, but it is as unpredictable and it turns out to be a quite intructive exercise.</span>
+
+<span style="font-weight: 400">The final point is somewhat of a consequence of the previous points, and that is the constant exercise of creativity in 
+face of a mistake or the nature of the materials at hand. We humuoursly call our mistakes *"redesign opportunities"*, and that is something that is in itself an important lesson
+for me, as I am not naturally flexible.</span>
+
+<span style="font-weight: 400">Arguing that most of these lessons could be taken from the completely abstract work I do everyday would be a fair argument,
+were not for the fact that all these lessons are translated into very tangible terms in my woodworking, making them that much clearer and easier to internalize.</span>
+
+<span style="font-weight: 400">Finally, I also get to share the workshop with great people and to celebrate a new finished piece every once in a while, which is
+quite gratifying when you spend most of the day alone in front of the computer while working from home.</span>
+
+### Side note
+
+<span style="font-weight: 400">I am unlikely to blog here about my journey in woodworking in the near future, but will try to keep this [permanent photo gallery](http://www.xl-optim.com/gallery) always up-to-date.</span>
+
+
+
 
