@@ -73,7 +73,7 @@ with nogil, parallel( num_threads=cpus):
 
 At this point, we were getting 6.2X improvement over our pure Python code when using a beefy 32 core CPU, which felt a little underwhelming, even if it meant saving hours of processing time. Looking back at our gains we had made so far, it was clear that CPU cache was playing a huge role, and it was worth exploring what else we could do to optimize its use.
 
-The obvious change was to make more elements to fit in cache, meaning to have smaller elements: How about using 32 bit arrays instead of 64 ones? Implementing those changes was trivial, and the results enormous. In a nutshell, the software performed 36% faster for matrices with 5,000 zones and **47%** faster for matrices with 10,000 zones.
+The obvious change was to make more elements to fit in cache, meaning to have smaller elements: How about using 32 bit arrays instead of 64 ones? Implementing those changes was trivial, and the results enormous. In a nutshell, the software performed 36% faster for matrices with 5,000 zones and **47%** faster for matrices with 10,000 zones. **That's an 11X performance improvement over the pure Python code.**
 
 What about numerical precision you may ask?  Well... The Root Mean Squared error was of the order of 1e-10 to 1e-12, so way beyond what we usually worry about in modelling. In any case, we have maintained both the 32 and 64 bit versions of the algorithm, and AequilibraE decides the version to use based on the seed matrix provided by the user. We have also made that function, called **ipf_core** available for direct use with NumPy arrays instead of AequilibraE's matrix interface, which allows it to be incorporated in 3rd party code much more easily.
 
