@@ -77,6 +77,6 @@ The obvious change was to make more elements to fit in cache, meaning to have sm
 
 What about numerical precision you may ask?  Well... The Root Mean Squared error was of the order of 1e-10 to 1e-12, so way beyond what we usually worry about in modelling. In any case, we have maintained both the 32 and 64 bit versions of the algorithm, and AequilibraE decides the version to use based on the seed matrix provided by the user. We have also made that function, called **ipf_core** available for direct use with NumPy arrays instead of AequilibraE's matrix interface, which allows it to be incorporated in 3rd party code much more easily.
 
-The full improvement with the 32 bit version was merged into AequilibraE's code a few months ago, but the first release to incorporate it was made just last weekend so, in case you are using AeuqilibraE's IPF, it may be time to upgrade your AeuqilibraE version!
+The full improvement with the 32 bit version was merged into AequilibraE's code a few months ago, but the first release to incorporate it was made just last weekend so, in case you are using AequilibraE's IPF, it may be time to upgrade your AequilibraE version!
 
  If can see the full benchmarking analysis, on the [AequilibraE documentation](https://aequilibrae.com/python/latest/validation_benchmarking/IPF_benchmark.html).
