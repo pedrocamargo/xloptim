@@ -1,0 +1,87 @@
+{{ define "header" }}
+<meta name="description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Title }}{{ end }}" />
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/atom-one-dark.min.css"
+/>
+<link rel="stylesheet" href="{{ "/css/layouts/single.css" | relURL }}"/>
+<link rel="stylesheet" href="{{ "/css/navigators/sidebar.css" | relURL }}">
+<!--================= custom style overrides =========================-->
+<link rel="stylesheet" href="{{ "/css/style.css" | relURL }}"/>
+
+{{ end }}
+
+{{ define "navbar" }}
+    {{ partial "navigators/navbar-3.html" . }}
+{{ end }}
+
+
+
+{{ define "content" }}
+<section class="content-section gallery-section mt-5" id="content-section">
+  <div class="content">
+    <div class="container p-0 read-area">
+
+
+      <!--Content Start-->
+      <div class="page-content">
+
+
+      {{ $pages := where .Site.RegularPages "Type" "in" "gallery" }}
+      {{ $sortedPages := sort $pages "Weight" "desc" }}
+
+      <div class="gallery-content mt-5">
+        <h1 class="text-center">{{ with .Params.gallery.name }}{{ . }}{{ end }}</h1>
+        <div class="hes-gallery">
+          <ul class="hes-gallery-ul">
+            {{ range $sortedPages }}
+            <li>
+              {{ if .Params.featured_image }}
+              {{- $image := resources.Get (printf "gallery/%s" .Params.featured_image) -}}
+
+              <a href="{{ .Permalink }}">
+                <img src="{{ if gt $image.Width 1600 }}{{ ($image.Resize "1600x").RelPermalink }}{{ else }}{{ $image.RelPermalink }}{{ end }}" alt="{{ .Params.name }}" data-subtext="{{ .Params.year }} - {{ .Params.name }}" />
+                <p class="image-name text-center pt-2">{{ .Title }}</p>
+              </a>
+              {{ end }}
+            </li>
+            {{ end }}
+          </ul>
+        </div>
+
+        {{ .Content }}
+      </div>
+
+
+
+      </div>
+    </div>
+  </div>
+  <!--scroll back to top-->
+  <a id="scroll-to-top" class="btn"><i class="fas fa-chevron-circle-up"></i></a>
+  {{ if .IsTranslated }}
+    {{ partial "navigators/floating-lang-selector.html" . }}
+  {{ end }}
+</section>
+{{ end }}
+
+
+
+{{ define "scripts" }}
+
+<script src="{{ "/js/single.js" | relURL }}"></script>
+<script>
+  hljs.initHighlightingOnLoad();
+</script>
+
+<!-------------- Enable Math support for this page  ---------------->
+{{ if .Params.math }}
+    {{ partial "math.html" . }}
+{{ end }}
+
+<!-------------- Enable mermaid support for this page  ---------------->
+{{ if .Params.mermaid }}
+    {{ partial "mermaid.html" . }}
+{{ end }}
+
+{{ end }}

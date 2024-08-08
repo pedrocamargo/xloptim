@@ -1,12 +1,8 @@
 ---
-# id: 32
-title: "2022 Cutting board"
-layout: gallery
+title: "2022 - Cutting board"
+featured_image: "silky_oak_cutting_board.jpg"
+weight: 100
 gallery:
-  enable: true
-  name: "2022 Cutting board"
-  images:
-    - image: "silky_oak_cutting_board.jpg"
-      name: "Cutting board. Silky Oak, Tasmanian Blackwood and Camphor Laurel"
-      year: 2022
+  - image: "silky_oak_cutting_board.jpg"
+    name: "2022 - Cutting board. Silky Oak, Tasmanian Blackwood and Camphor Laurel"
 ---
