@@ -1,5 +1,5 @@
 ---
-title: "2021 - Jewellery Box"
+title: "2021 - Sophia's Jewellery Box"
 featured_image: "jbox_sophia.jpg"
 weight: 20
 gallery:

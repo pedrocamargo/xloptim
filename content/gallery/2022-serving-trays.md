@@ -1,5 +1,5 @@
 ---
-title: "2022 - Serving board"
+title: "Serving trays"
 featured_image: "francine_tray.jpg"
 weight: 60
 gallery:

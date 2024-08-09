@@ -1,5 +1,5 @@
 ---
-title: "2018 - Company logo"
+title: "2018 - Scroll Saw"
 featured_image: "vlc_logo.jpg"
 weight: 4
 gallery:
