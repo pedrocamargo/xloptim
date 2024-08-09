@@ -1,6 +1,6 @@
 ---
 title: "2024 - Queensland Walnut box"
-featured_image: "teabox_qld_walnut2.jpg"
+featured_image: "rosaria_box1.jpg"
 weight: 8
 gallery:
   - image: "rosaria_box1.jpg"
