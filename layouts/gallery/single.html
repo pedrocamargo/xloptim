@@ -34,7 +34,7 @@
             <li>
             {{ $imagePath := printf "/gallery/%s" .image }}
             {{- $image := resources.Get $imagePath -}}
-            <img src="{{ if gt $image.Width 1600 }}{{ ($image.Resize "1600x").RelPermalink }}{{ else }}{{ $image.RelPermalink }}{{ end }}" alt="{{ .year}} - {{ .name }}" data-subtext="{{ .year}} - {{ .name }}" />
+            <img src="{{ if gt $image.Width 1600 }}{{ ($image.Resize "1600x").RelPermalink }}{{ else }}{{ $image.RelPermalink }}{{ end }}" alt="{{ .name }}" data-subtext="{{ .name }}" />
             <p class="image-name text-center pt-2">{{ .name }}</p>
             </li>
             {{ end }}
