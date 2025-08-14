@@ -9,7 +9,7 @@ categories:
 ---
 The last 3 years or so have been incredibly busy for me, and the proverbial dust around this place is good evidence of that. Much of that activity translated into incredible advances for AequilibraE, with a generational improvement to traffic assignment performance, transit assignment and, more recently, route choice.
 
-The common thread in these major advances, however, is that I did not write much of that code, and certainly nothing of importance. As we advance into high-performance computing, the software is getting too complicated for me, amd I find myself being more valuable as an internal client/consultant for the software, helping guide the direction for the API and prioritize improvements. It is bittersweet, but it comes with the territory.
+The common thread in these major advances, however, is that I did not write much of that code, and certainly nothing of importance. As we advance into high-performance computing, the software is getting too complicated for me, and I find myself being more valuable as an internal client/consultant for the software, helping guide the direction for the API and prioritize improvements. It is bittersweet, but it comes with the territory.
 
 Every once in a while, however, I spend a few hours going through the code and making minor improvements to it. Adding documentation, fixing minor bugs, adding helpful functionality around the edges, upgrading dependencies and working on Continuous Integration. That usually happens at night, usually around the weekend. It is like spending some quality time with someone you love.
 
