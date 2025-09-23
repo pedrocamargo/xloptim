@@ -197,7 +197,7 @@ if __name__ == "__main__":
 
 I would probably be happier if I had stopped here, but I wanted to revisit **[Osmium](https://osmcode.org/osmium-tool/)**, a tool I had not touched in over a decade, but I had a WSL terminal already open... So why not?  Using Osmium for this purpose required me to download the OSM *planet* file, which is snapshot of the entire contents of OSM.
 
-The file for 15/09/2025 was smaller than one might expect, at 83 GB, but still substantial, and installing the Osmium tool on WSL Ubuntu was straightforward. Now that's when it alls becomes humiliating. Extracting all traffic lights from the planet file took **ONE** command line.
+The file for 15/09/2025 was smaller than one might expect, at 83 GB, but still substantial, and installing the Osmium tool on WSL Ubuntu was straightforward. Now that's when it all becomes humiliating. Extracting all traffic lights from the planet file took **ONE** command line.
 
 ```bash
  osmium tags-filter planet-250915.osm.pbf n/highway=traffic_signals -o traffic_signals.osm.pbf
