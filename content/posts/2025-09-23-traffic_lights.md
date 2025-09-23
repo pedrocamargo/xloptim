@@ -221,4 +221,4 @@ gdf2 = gpd.read_parquet(file_name)
 
 I guess if I stopped here, this blog post would be the proverbial meeting that could have been an e-mail, so I uploaded the dataset I generated [Traffic signals (GeoParquet)](http://xl-optim.com/files/traffic_signals_from_planet_250915.7z "Traffic Signals - 2025-09-15").
 
-Oh, and there are nearly 2 million traffic lights (not signalized intersections) i currently in OSM.
+Oh, and there are nearly 2 million traffic lights (not signalized intersections) currently in OSM.
