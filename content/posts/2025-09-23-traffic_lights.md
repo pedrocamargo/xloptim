@@ -1,6 +1,7 @@
 ---
 id: 1075
 title: "Traffic lights for the entire world"
+date: "2025-09-23T00:00:00+10:00"
 author: pedro
 url: /osm_traffic_lights/
 categories:
