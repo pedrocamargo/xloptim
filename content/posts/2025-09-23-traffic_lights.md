@@ -7,7 +7,7 @@ url: /osm_traffic_lights/
 categories:
     - data, gis
 ---
-Before we start, let me ask a question: How many traffic lights in the entire world are present in Open-Street Maps?
+Before we start, let me ask a question: How many traffic lights do you think are in the entire world are present in Open-Street Maps?
 
 I have been working on the development of [POLARIS](https://vms.taps.anl.gov/tools/polaris/ "POLARIS") for quite some time now, and it has been quite fulfilling to see how far we were able to bring the Python package (Polaris-Studio) and QGIS plugin (QPolaris) that surround POLARIS and give the user a pretty solid user interface.
 
