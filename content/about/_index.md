@@ -8,7 +8,7 @@ layout: about
 
 My name is Pedro Camargo, and I am a Transportation Scientist.
 
-I am currently involved in research with a large US National Laboratory, in developing Open-Source software and direct Outer Loop Consulting, an Australian-Based consulting company.
+I am currently a director at [Outer Loop Consulting](http://www.outerloop.io), an Australian-based consulting company I founded, but I am also involved in research with a large US National Laboratory.
 
 These days I'm interested in Software Development, Operations Research, the use of passive datasets (e.g. GPS, LBS), discrete choice econometrics, and GIS.
 
@@ -18,7 +18,7 @@ Before I moved to the US for my Ph.D., I also worked for a [consultancy company
 
 The content and opinions on this website are always my own.
 
-More [here](http://www.linkedin.com/in/pedrocamargo). Or just send me an e-mail at c @ margo.co
+More [here](http://www.linkedin.com/in/pedrocamargo). Or just send me an e-mail at pedro@outerloop.io.
 
 **What is this all about?**
 
