@@ -24,3 +24,6 @@ Thank you for your interest in [AequilibraE](https://www.aequilibrae.com), but r
 If you are looking for free assistance, please post your question to the official [AequilibraE mailing list](https://groups.google.com/g/aequilibrae). Using the public mailing list ensures that support remains a shared community effort and allows solutions to be indexed and searchable so that other users facing similar issues can benefit as well.
 
 If you or your organization require dedicated, private assistance, custom development, or priority troubleshooting, you are welcome to [contact me directly](mailto:pedro@outerloop.io?subject=AequilibraE%20commercial%20support%20inquiry) to inquire about commercial support and consulting rates.
+
+Happy Modelling,\
+Pedro Camargo
