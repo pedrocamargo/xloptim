@@ -1,0 +1,47 @@
+{{/*
+  Layout for "unlisted" pages: standalone pages that are reachable only by
+  their direct link (e.g. /opensource/). They use the same look as the About
+  page, but are kept out of search engines via a robots meta tag. Pair this
+  layout with `build: {list: never}` and `sitemap: {disable: true}` in the
+  page front matter so the page is also left out of the sitemap, the RSS
+  feed, the site search index and the posts sidebar.
+*/}}
+
+{{ define "header" }}
+<meta name="description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Title }}{{ end }}" />
+<meta name="robots" content="noindex, nofollow, noarchive" />
+<link rel="stylesheet" href="{{ "/css/layouts/single.css" | relURL }}"/>
+<!--================= custom style overrides =========================-->
+<link rel="stylesheet" href="{{ "/css/style.css" | relURL }}"/>
+{{ end }}
+
+{{ define "navbar" }}
+    {{ partial "navigators/navbar-3.html" . }}
+{{ end }}
+
+{{ define "content" }}
+<section class="content-section about-section unlisted-section mt-5" id="content-section">
+  <div class="content">
+      <div class="page-content">
+        <h1 class="text-center mb-4">{{ .Title }}</h1>
+        <div class="post-content">
+          {{ .Content }}
+        </div>
+        {{ with .Params.actions }}
+        <div class="unlisted-actions">
+          {{ range . }}
+          <a class="btn unlisted-action{{ if .primary }} unlisted-action-primary{{ end }}" href="{{ .url }}"{{ if hasPrefix .url "http" }} target="_blank" rel="noopener"{{ end }}>
+            {{ with .icon }}<i class="{{ . }}"></i>{{ end }}
+            {{ .label }}
+          </a>
+          {{ end }}
+        </div>
+        {{ end }}
+      </div>
+  </div>
+</section>
+{{ end }}
+
+{{ define "scripts" }}
+<script src="{{ "/js/single.js" | relURL }}"></script>
+{{ end }}

@@ -144,3 +144,87 @@ h2 {
     font-size: 0.75rem;
   }
 }
+/* ---------- Unlisted pages (e.g. /opensource/) ---------- */
+
+.unlisted-section .page-content {
+  width: 46em;
+  max-width: 100%;
+  padding: 2.5em 3em;
+  background-color: #fff;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 12px rgba(60, 72, 88, 0.08);
+}
+
+.unlisted-section .post-content {
+  padding: 0;
+}
+
+.unlisted-section .post-content p {
+  font-size: 1.05rem;
+  line-height: 1.75;
+  color: #3c4858;
+  text-align: justify;
+  hyphens: auto;
+}
+
+.unlisted-section .post-content a {
+  color: #2098d1;
+}
+
+.unlisted-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1em;
+  margin-top: 2em;
+  padding-top: 2em;
+  border-top: 1px solid #e5e9f2;
+}
+
+.unlisted-action {
+  padding: 0.6em 1.4em;
+  border: 1px solid #2098d1;
+  border-radius: 0.3rem;
+  color: #2098d1;
+  background-color: #fff;
+  font-weight: 600;
+}
+
+.unlisted-action i {
+  margin-right: 0.4em;
+}
+
+.unlisted-action:hover,
+.unlisted-action:focus {
+  color: #fff;
+  background-color: #2098d1;
+  text-decoration: none;
+}
+
+.unlisted-action-primary {
+  color: #fff;
+  background-color: #2098d1;
+}
+
+.unlisted-action-primary:hover,
+.unlisted-action-primary:focus {
+  background-color: #1a7fb0;
+  border-color: #1a7fb0;
+}
+
+@media (max-width: 600px) {
+  .unlisted-section .page-content {
+    margin-top: 5em;
+    padding: 1.5em 1em;
+    box-shadow: none;
+  }
+
+  .unlisted-section .post-content p {
+    text-align: left;
+  }
+
+  .unlisted-action {
+    width: 100%;
+    text-align: center;
+  }
+}
